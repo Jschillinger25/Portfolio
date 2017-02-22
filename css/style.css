@@ -1,0 +1,55 @@
+.container { padding: 25px; background: white; margin: 10px; }
+h2 { color: pink;
+     font-weight: 800;
+     text-align: center;}
+
+.container:nth-child(odd){ background: rgb 48, 144, 166;
+}
+
+body{
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+nav{
+    float: right;
+}
+
+p{
+    font-family: font-family: 'Mukta Vaani', sans-serif;
+    font-size: 1.2em;
+ }
+h1 {
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 2em;
+}
+
+
+img.center{
+    display:block;
+}
+
+img.inset{
+    margin-left:20em;
+}
+
+.imageSmall {
+    height: 70px;
+    width: 70px;
+}
+
+.photoSmall{
+    height:100px;
+    width: 100px;
+}
+
+.imagePosition{
+    float: right;
+    height: 200px;
+    margin-right: 200px
+}
+
+.contact{
+    float: right;
+    height: 30px;
+    width: 30px
+}
