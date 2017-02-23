@@ -1,4 +1,0 @@
-.container { padding: 25px; background: white; margin: 10px; }
-h2 { color: pink; }
-
-.container:nth-child(odd){ background: red }
