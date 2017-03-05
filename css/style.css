@@ -36,6 +36,14 @@ button{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+.nav-container h4:hover, .portfolio-nav h3:hover, .contact-info a:hover {
+  cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
 .hero{
     height: 100%;
 }
@@ -68,14 +76,22 @@ body{
 }
 
 .nav-tabs{
-    text-align: center
+    text-align: center;
 }
 
-.nav-tabs a{
+.nav-container{
+    display: table;
+    width: 50%;
+    margin:auto;
+}
+
+.nav-container h4{
     color: black;
+    padding-right: 50px;
     text-decoration: none;
     font-size: 24px;
-    padding-right: 50px;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .hero-img{
@@ -116,7 +132,15 @@ body{
     margin-left: 10%;
     line-height: 4pc;
 }
+   
+.selected {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #FEB38D;
+    border-right: 8px solid;
+    font-weight:bold;
     
+}
 
 .portfolio{
     height:100%;
@@ -150,7 +174,7 @@ body{
 
 .portfolio-nav h3{
     font-size: 24px;
-    font-weight: normal;
+    font-weight: lighter;
     margin-left: 5%;
     margin-bottom: 3%;
 }
@@ -220,6 +244,10 @@ body{
     /*padding-right: 5%;*/
     font-size: 48px;
     color: #3090A6;
+}
+
+.contact-info a{
+    text-decoration: none;
 }
 
 .about-images{

@@ -13,10 +13,12 @@
                 <img src ="images/Logo.png">
             </div>
             <div class="nav-tabs column full">
-                <a href="#">About</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Skills</a>
-                <a href="#">Contact</a>
+                <div class="nav-container">
+                    <h4 class="about-scroll">About</h4>
+                    <h4 class="portfolio-scroll">Portfolio</h4>
+                    <h4 class="skills-scroll">Skills</h4>
+                    <h4 class="contact-scroll">Contact</h4>
+                </div>
             </div>
         </div>
     <div class="column full">
@@ -59,14 +61,33 @@
       </div>
       <div class="portfolio-content column full">
           <div class="portfolio-nav column third">
-              <h3>Traks</h3>
-              <h3>Open Hand</h3>
-              <h3>CollaborMate</h3>
-              <h3>Bloc Jams</h3>
-              <h3>MJ Photography</h3>
+              <div class="cloumn full">
+                  <h3 class="column half portfolio-traks selected">Traks</h3>
+              </div>
+              <div class="cloumn full">
+                  <h3 class="column half portfolio-open-hand selected">Open Hand</h3>
+              </div>
+              <div class="cloumn full">
+                  <h3 class="column half portfolio-collabormate selected">CollaborMate</h3>
+              </div>
+              <div class="cloumn full">
+                  <h3 class="column half portfolio-bloc-jams selected">Bloc Jams</h3>
+              </div>
+              <div class="cloumn full">
+                  <h3 class="column half portfolio-MJ-Photography selected">MJ Photography</h3>
+              </div>
           </div>
-          <div class="column two-thirds">
-              <img class=" " src= "images/Group 14.png">
+          <div class="column two-thirds traks-laptop">
+              <img src= "images/Group 14.png">
+          </div>
+          <div class="column two-thirds open-hand-laptop">
+              <img src= "images/open%20hand.png">
+          </div>
+          <div class="column two-thirds collabormate-laptop">
+              <img src= "images/collabormate.png">
+          </div>
+          <div class="column two-thirds mj-photography-laptop">
+              <img src= "images/mk%20photography.png">
           </div>
       </div>  
     
@@ -138,10 +159,12 @@
          <img class="contact-img" src= "images/Jacqueline%20Portfolio2revised.png">
     </div>
     <div class="contact-info column two-thirds">
-     <p>Jacqueline Schillinger <img src = "images/LinkedIn.png"></p>
+     <a href="http://linkedin.com/in/jacquelineschillinger"> <p>Jacqueline Schillinger <img src = "images/LinkedIn.png"></p></a>
      <p>715-891-1338 <img src = "images/Phone.png"></p>
-     <p>Jacqueline.designer@gmail.com <img src = "images/Mail.png"></p>
+     <a href="mailto:schillinger.designers@gmail.com"><p>Jacqueline.designer@gmail.com <img src = "images/Mail.png"></p></a>
     </div>
  </div>
+ <script src="js/jquery-3.1.0.min.js"></script>
+ <script src="js/home.js"></script>     
 </body>
 </html>
