@@ -1,0 +1,285 @@
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+   height:100%
+}
+
+.column {
+         float: left;
+         padding-left: 1rem;
+         padding-right: 1rem;
+     }
+
+.column.full { width: 100%; }
+.column.two-thirds { width: 66.7%; }
+.column.half { width: 50%; }
+.column.third { width: 33.3%; }
+.column.fourth { width: 25%; }
+.column.flow-opposite { float: right; }
+
+.logo{
+    position:absolute;
+}
+.nav-container{
+    display: table;
+    width: 50%;
+    margin:auto;
+}
+
+.nav-tabs{
+    text-align: left;
+}
+
+.nav-container h4{
+    display: table-cell;
+    vertical-align: middle;
+    color: black;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: didot;
+}
+
+
+.hero-img{
+    margin-top: 12%;
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.column{
+    text-align: center;
+}
+
+p{
+    text-align: left;
+}
+
+p.Center{
+    text-align:center;
+}
+
+
+.Introduction{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.Problem {
+   padding-right: 10%;
+   padding-left: 10%;
+         
+}
+
+.Solution{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.SwotPersonaPics {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #F6F6F6;
+}
+
+.SwotPersonaPics img{
+    height: 400px;
+}
+
+.Swot p{
+    margin-top: 1%;
+   
+}
+
+.Swot img{
+    margin-top: 4%;
+}
+
+.Persona1 p{
+    margin-top: 1%;
+   
+}
+
+.Persona1 img{
+    margin-top: 4%;
+}
+
+.Persona2 p{
+    margin-top: 1%;
+    
+}
+
+.Persona2 img{
+    margin-top: 4%;
+}
+
+.Identity {
+   padding-left: 10%;
+   padding-right: 10%;   
+}
+
+.CMateLogo {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #F6F6F6; 
+}
+
+
+.CMate img{
+    height: 300px;
+    margin-top: 4%;
+}
+
+.CMate p{
+    margin-top: 1%;
+    
+}
+
+.CMateChosen img{
+    margin-top: 15%;
+    margin-bottom: 11%;   
+}
+
+.CMateChosen p{
+    margin-top: 1%;
+    
+}
+
+.CMateLogo2 img{
+    height: 300px;
+    margin-top: 4%;
+}
+
+.CMateLogo2 p{
+    margin-top: 1%;
+}
+
+.ColorPalettes {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.Palettes {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #F6F6F6;
+}
+
+.Bright img{
+    height: 440px;
+    margin-top: 4%;
+}
+
+.Bright p{
+    margin-top: 1%;
+    font-family: didot;
+}
+
+.Earthy img{
+    margin-top: 4%;
+}
+
+.Earthy p{
+    margin-top: 1%;
+    font-family: didot;
+}
+
+.Picked img{
+    margin-top: 4%;
+}
+
+.Picked p{
+    margin-top: 1%;
+    font-family: didot;
+}
+
+.Wireframing{
+   padding-left: 10%;
+   padding-right: 10%;   
+}
+
+.Perks {
+   padding-left: 10%;
+   padding-right: 10%;
+   background-color: #F6F6F6;
+}
+
+.Perks img{
+    height: 200px;
+}
+
+.Chunky img{
+    margin-top: 4%;
+}
+
+.Chunky p{
+    margin-top: 1%;
+}
+
+.Clean img{
+    margin-top: 4%;
+    width: 800px;
+}
+
+.Clean p{
+    margin-top: 1%
+}
+
+.Pricing {
+   padding-left: 10%;
+   padding-right: 10%;
+   background-color: #F6F6F6;
+}
+
+.Pricing img{
+    height: 400px;
+}
+
+.FirstChart img{
+    margin-top: 4%;
+}
+
+.FirstChart p{
+    margin-top: 1%;
+}
+
+.RevisedChart img{
+    margin-top: 4%;
+}
+
+.RevisedChart p{
+    margin-top: 1%;
+}
+
+.Thoughts {
+   padding-left: 10%;
+   padding-right: 10%;    
+}
+
+p {
+    font-size: 25px;
+    font-weight: normal;
+    font-family: didot; 
+}
+
+h3 {
+    font-size: 30px;
+    color: #E37222;
+}
+
+h2 {
+    font-size: 35px;
+    color: #778EB4;
+}
+
+.link {
+    font-size: 20px;
+}
