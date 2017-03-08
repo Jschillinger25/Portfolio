@@ -1,0 +1,220 @@
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+   height:100%
+}
+
+.column {
+         float: left;
+         padding-left: 1rem;
+         padding-right: 1rem;
+     }
+
+.column.full { width: 100%; }
+.column.two-thirds { width: 66.7%; }
+.column.half { width: 50%; }
+.column.third { width: 33.3%; }
+.column.fourth { width: 25%; }
+.column.flow-opposite { float: right; }
+
+.logo{
+    position:absolute;
+}
+.nav-container{
+    display: table;
+    width: 50%;
+    margin:auto;
+}
+
+.nav-tabs{
+    text-align: left;
+}
+
+.nav-container h4{
+    display: table-cell;
+    vertical-align: middle;
+    color: black;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: didot;
+}
+
+
+.hero-img{
+    margin-top: 12%;
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.column{
+    text-align: center;
+}
+
+p{
+    text-align: left;
+}
+
+p.Center{
+    text-align:center;
+}
+
+
+.Introduction{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.Problem {
+   padding-right: 10%;
+   padding-left: 10%;
+         
+}
+
+.Solution{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.Process{
+    padding-left: 10%;
+    padding-right: 10%
+}
+
+.BIdentity{
+    background-color:#FBF2F5;
+}
+
+.LogoColor img{
+    margin-top:2%
+}
+
+.LogoColor p{
+    margin-top: 1%;
+}
+
+.Mockups{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.Mocks{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #FBF2F5;
+}
+
+.Circles img{
+    margin-top: 4%;
+}
+
+.Circles p{
+    margin-top: 1%;
+}
+
+.Neat img{
+    margin-top: 9%
+}
+
+.Neat p{
+    margin-top: 1%
+}
+
+.HomeMocks{
+    padding-right: 10%;
+    padding-left: 10%
+}
+
+.HomeMockups{
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #FBF2F5;
+}
+
+.Profile img{
+    margin-top:4%;
+}
+
+.Profile p{
+    margin-top: 1%;
+}
+
+.Comments img{
+    margin-top: 4%;
+}
+
+.Comments p{
+    margin-top: 1%;
+}
+
+.ChartText {   
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+.Charts{
+    background-color:#FBF2F5;
+}
+
+.Charts img{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.FirstChart img{
+    margin-top: 4%;
+    padding-left: 30%;
+}
+
+.FirstChart p{
+    margin-top: 1%;
+    padding-left: 30%;
+}
+
+.RevisedChart img{
+    margin-top: 4%;
+    padding-right: 30%;
+}
+
+.RevisedChart p{
+    margin-top: 1%;
+    padding-right: 30%;
+}
+   
+.Identity {
+   padding-left: 10%;
+   padding-right: 10%;   
+}
+
+.Thoughts {
+   padding-left: 10%;
+   padding-right: 10%;    
+}
+
+p {
+    font-size: 25px;
+    font-weight: normal;
+    font-family: didot; 
+}
+
+h3 {
+    font-size: 30px;
+    color: #A7536E;
+}
+
+h2 {
+    color: #668A6D;
+    font-size:36px;
+}
+
+.link {
+    font-size: 20px;
+}
