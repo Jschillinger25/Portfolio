@@ -80,6 +80,7 @@ p.Center{
 }
 
 .Solution{
+    padding-bottom:2%;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -122,6 +123,8 @@ p.Center{
 }
 
 .Identity {
+   padding-top:2%;
+   padding-bottom:2%;
    padding-left: 10%;
    padding-right: 10%;   
 }
@@ -163,6 +166,8 @@ p.Center{
 }
 
 .ColorPalettes {
+    padding-top:2%;
+    padding-bottom:2%;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -202,6 +207,8 @@ p.Center{
 }
 
 .Wireframing{
+   padding-top:2%;
+   padding-bottom:2%;
    padding-left: 10%;
    padding-right: 10%;   
 }
@@ -260,6 +267,8 @@ p.Center{
 }
 
 .Thoughts {
+   padding-top:2%;
+   padding-bottom:2%;
    padding-left: 10%;
    padding-right: 10%;    
 }

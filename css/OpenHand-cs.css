@@ -89,6 +89,10 @@ p.Center{
     padding-right: 10%
 }
 
+.Identity{
+    padding-bottom:2%;
+}
+
 .BIdentity{
     background-color:#FBF2F5;
 }
@@ -102,6 +106,8 @@ p.Center{
 }
 
 .Mockups{
+    padding-top:2%;
+    padding-bottom:2%;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -129,6 +135,8 @@ p.Center{
 }
 
 .HomeMocks{
+    padding-top:2%;
+    padding-bottom:2%;
     padding-right: 10%;
     padding-left: 10%
 }
@@ -144,7 +152,7 @@ p.Center{
 }
 
 .Profile p{
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 .Comments img{
@@ -155,38 +163,33 @@ p.Center{
     margin-top: 1%;
 }
 
-.ChartText {   
-   margin-left: 10%;
-   margin-right: 10%;
+.ChartText{
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-right:10%;
+    padding-left:10%;
 }
 
 .Charts{
     background-color:#FBF2F5;
-}
-
-.Charts img{
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left:10%;
+    padding-right:10%
 }
 
 .FirstChart img{
     margin-top: 4%;
-    padding-left: 30%;
 }
 
 .FirstChart p{
     margin-top: 1%;
-    padding-left: 30%;
 }
 
 .RevisedChart img{
-    margin-top: 4%;
-    padding-right: 30%;
+    margin-top: 7%;
 }
 
 .RevisedChart p{
     margin-top: 1%;
-    padding-right: 30%;
 }
    
 .Identity {
@@ -195,6 +198,8 @@ p.Center{
 }
 
 .Thoughts {
+   padding-top:2%;
+   padding-bottom:2%;
    padding-left: 10%;
    padding-right: 10%;    
 }
