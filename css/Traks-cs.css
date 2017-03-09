@@ -14,7 +14,7 @@ body, html {
          padding-right: 1rem;
      }
 
-.column.full { width: 100%; }
+.column.full { width: 100%; padding-right:10%; padding-left:10%; }
 .column.two-thirds { width: 66.7%; }
 .column.half { width: 50%; }
 .column.third { width: 33.3%; }
@@ -63,317 +63,55 @@ p{
     text-align: left;
 }
 
-p.Center{
-    text-align:center;
-}
-
-.BeginningText{
-    padding-left:10%;
-    padding-right:10%;
-}
-
-.Introduction{
-    padding-right: 10%;
-    padding-left: 10%;
-}
-
-.Solution{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.Survey{
-    padding-bottom:2%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
 ol{
     font-size:25px;
     text-align:left;
 }
 
-.Survey1{
-    padding-left:10%;
-    padding-right:10%;
+.Background{
     background-color:#FBF7EF;
 }
 
-.Survey1 p{
-    text-align:center;
+.Background p{
+    text-align: center;
     margin-top:1%;
-}
-
-.One{
-    margin-top:4%;
-}
-
-.Two{
-    margin-top:5.7%;
-}
-
-.Survey2{
-    padding-left:10%;
-    padding-right:10%;
-    background-color: #FBF7EF;
-}
-
-.Survey2 p{
-    text-align:center;
-    margin-top:1%;
-}
-
-.Three{
-    margin-top:4%;
     margin-bottom:4%;
 }
 
-.Four{
-    margin-top:4.3%;
+.Text{
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+.Image{
+    margin-top:4%;
+    margin-bottom:2%
+}
+
+.Image1{
+    margin-top:5.5%;
+}
+
+.Image2{
+    margin-top:5%;
+}
+
+.Image3{
+    padding-bottom:.5%;
+}
+
+.Image4{
+    padding-top:.5%;
+    padding-bottom:.5%
+}
+
+.ImageNoCaption{
+    margin-top:4%;
     margin-bottom:4%;
-}
-
-.Competition{
-    padding-top:2%;
-    padding-bottom:2%;
-    padding-left:10%;
-    padding-right: 10%;
-}
-
-.Swot{
-    padding-right:10%;
-    padding-left:10%;
-    background-color: #FBF7EF;
-}
-
-.Swot1 img{
-    margin-top:4%;
-}
-
-.Swot1 p{
-    margin-top:1%;
-}
-
-.Swot2 img{
-    margin-top:4%;
-}
-
-.Swot2 p{
-    margin-top:1%;
-}
-
-.Swot3 img{
-    margin-top:4%;
-}
-
-.Swot3 p{
-    margin-top:1%;
-}
-
-.OtherUX {
-    padding-left:10%;
-    padding-right:10%;
-    padding-top:2%;
-    padding-bottom:2%;
 }
 
 .OtherUX p{
     text-align:center;
-}
-
-.UXpix1{
-    padding-right:10%;
-    padding-left:10%;
-    background-color:#FBF7EF;
-}
-
-.Flows img{
-    margin-top:4%;
-}
-
-.Flows p{
-    margin-top:1%;
-    margin-bottom:4%;
-}
-
-.Stories img{
-    margin-top:6%;
-}
-
-.Stories p{
-    margin-top:1%;
-    margin-bottom:4%;
-}
-
-.Persona{
-    padding-top:2%;
-    padding-bottom:2%;
-    padding-left:10%;
-    padding-right:10%;
-}
-
-.PersonaPics{
-    padding-right:10%;
-    padding-left:10%;
-    background-color:#FBF7EF;
-}
-
-.Personapic1 img{
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
-
-.Personapic2 img{
-    margin-top:4%;
-    margin-bottom: 4%;
-}
-
-.Personapic3 img{
-    margin-top:4%;
-    margin-bottom: 4%;
-}
-
-.Identity{
-    padding-top:2%;
-    padding-bottom:2%;
-    padding-left: 10%;
-    padding-right:10%;
-}
-
-.Logo{
-    padding-left:10%;
-    padding-right:10%;
-    background-color:#FBF7EF;
-}
-
-.Logo1 img{
-    margin-top:5%;
-}
-
-.Logo p{
-    margin-top:1%;
-    margin-bottom: 4%;
-}
-
-.Logo2 img{
-    margin-top:5%;
-}
-
-.LogoChosen img{
-    margin-top:4%;
-}
-
-.FontColor{
-    padding-top:2%;
-    padding-bottom:2%;
-    padding-left:10%;
-    padding-right:10%;
-}
-
-.Palette{
-    background-color:#FBF7EF;
-}
-
-.Color img{
-    margin-top: 4%;
-}
-
-.Color p{
-    margin-top:1%;
-    margin-bottom:4%;
-}
-
-ul{
-    text-align:left;
-    font-size: 25px;    
-}
-
-
-.Display{
-    padding-left:10%;
-    padding-right:10%;
-    background-color:#FBF7EF;
-}
-
-.Display1 img{
-    margin-top: 4%
-}
-
-.Display1 p{
-    margin-top:1%;
-}
-
-.Display2 img{
-    margin-top: 4%;
-}
-
-.Display2 p{
-    margin-top:1%;
-}
-
-.BoxinessText {
-    padding-top:2%;
-    padding-bottom:2%;
-    padding-right:10%;
-    padding-left:10%;
-}
-
-.Boxiness1{
-    padding-right:10%;
-    padding-left:10%;
-    background-color:#FBF7EF;
-}
-
-.Badge1 img{
-    margin-top:4%;
-}
-
-.Badge1 p{
-    margin-top:1%;
-}
-
-.Badge2 img{
-    margin-top:4%;
-}
-
-.Badge2 p{
-    margin-top:1%;
-}
-
-.Boxiness2{
-    padding-left:10%;
-    padding-right:10%;
-    background-color:#FBF7EF;
-}
-
-.Vacation1 img{
-    margin-top:4%;
-}
-
-.Vacation1 p{
-    margin-top: 1%;
-}
-
-.Vacation2 img{
-    margin-top:4%;
-}
-
-.Vacation2 p{
-    margin-top: 1%;
-}
-
-.Thoughts {
-   padding-top:2%;
-   padding-bottom:2%;
-   padding-left: 10%;
-   padding-right: 10%;    
-}
-
-.Ending{
-    padding-top:2%;
-    padding-bottom:2%;
-    padding-right:10%;
-    padding-left:10%;
 }
 
 p {
