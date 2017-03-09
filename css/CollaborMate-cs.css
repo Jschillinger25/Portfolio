@@ -14,9 +14,9 @@ body, html {
          padding-right: 1rem;
      }
 
-.column.full { width: 100%; }
+.column.full { width: 100%; padding-right:10%; padding-left: 10%; }
 .column.two-thirds { width: 66.7%; }
-.column.half { width: 50%; }
+.column.half { width: 50%;}
 .column.third { width: 33.3%; }
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
@@ -63,20 +63,24 @@ p{
     text-align: left;
 }
 
-p.Center{
-    text-align:center;
+.Background{
+    background-color: #F6F6F6;
 }
 
-
-.Introduction{
-    padding-right: 10%;
-    padding-left: 10%;
+.Background p{
+    text-align: center;
+    margin-top:1%;
+    margin-bottom:4%;
 }
 
-.Problem {
-   padding-right: 10%;
-   padding-left: 10%;
-         
+.Text{
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+.Image{
+    margin-top:4%;
+    margin-bottom:2%
 }
 
 .Solution{
@@ -85,65 +89,13 @@ p.Center{
     padding-right: 10%;
 }
 
-.SwotPersonaPics {
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: #F6F6F6;
-}
-
 .SwotPersonaPics img{
     height: 400px;
 }
 
-.Swot p{
-    margin-top: 1%;
-   
-}
-
-.Swot img{
-    margin-top: 4%;
-}
-
-.Persona1 p{
-    margin-top: 1%;
-   
-}
-
-.Persona1 img{
-    margin-top: 4%;
-}
-
-.Persona2 p{
-    margin-top: 1%;
-    
-}
-
-.Persona2 img{
-    margin-top: 4%;
-}
-
-.Identity {
-   padding-top:2%;
-   padding-bottom:2%;
-   padding-left: 10%;
-   padding-right: 10%;   
-}
-
-.CMateLogo {
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: #F6F6F6; 
-}
-
-
 .CMate img{
     height: 300px;
     margin-top: 4%;
-}
-
-.CMate p{
-    margin-top: 1%;
-    
 }
 
 .CMateChosen img{
@@ -151,31 +103,9 @@ p.Center{
     margin-bottom: 11%;   
 }
 
-.CMateChosen p{
-    margin-top: 1%;
-    
-}
-
 .CMateLogo2 img{
     height: 300px;
     margin-top: 4%;
-}
-
-.CMateLogo2 p{
-    margin-top: 1%;
-}
-
-.ColorPalettes {
-    padding-top:2%;
-    padding-bottom:2%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.Palettes {
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: #F6F6F6;
 }
 
 .Bright img{
@@ -183,18 +113,8 @@ p.Center{
     margin-top: 4%;
 }
 
-.Bright p{
-    margin-top: 1%;
-    font-family: didot;
-}
-
 .Earthy img{
     margin-top: 4%;
-}
-
-.Earthy p{
-    margin-top: 1%;
-    font-family: didot;
 }
 
 .Picked img{
@@ -206,64 +126,12 @@ p.Center{
     font-family: didot;
 }
 
-.Wireframing{
-   padding-top:2%;
-   padding-bottom:2%;
-   padding-left: 10%;
-   padding-right: 10%;   
-}
-
-.Perks {
-   padding-left: 10%;
-   padding-right: 10%;
-   background-color: #F6F6F6;
-}
-
-.Perks img{
-    height: 200px;
-}
-
-.Chunky img{
-    margin-top: 4%;
-}
-
-.Chunky p{
-    margin-top: 1%;
-}
-
-.Clean img{
-    margin-top: 4%;
-    width: 800px;
-}
-
-.Clean p{
-    margin-top: 1%
-}
-
-.Pricing {
-   padding-left: 10%;
-   padding-right: 10%;
-   background-color: #F6F6F6;
-}
-
 .Pricing img{
     height: 400px;
 }
 
-.FirstChart img{
-    margin-top: 4%;
-}
-
-.FirstChart p{
-    margin-top: 1%;
-}
-
-.RevisedChart img{
-    margin-top: 4%;
-}
-
-.RevisedChart p{
-    margin-top: 1%;
+.Image1{
+    margin-top:5%;
 }
 
 .Thoughts {

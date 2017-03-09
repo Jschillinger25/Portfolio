@@ -14,9 +14,9 @@ body, html {
          padding-right: 1rem;
      }
 
-.column.full { width: 100%; }
+.column.full { width: 100%; padding-right:10%; padding-left:10%; }
 .column.two-thirds { width: 66.7%; }
-.column.half { width: 50%; }
+.column.half { width: 50%;}
 .column.third { width: 33.3%; }
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
@@ -63,145 +63,36 @@ p{
     text-align: left;
 }
 
-p.Center{
-    text-align:center;
+.Background{
+    background-color: #FBF2F5;
 }
 
-
-.Introduction{
-    padding-right: 10%;
-    padding-left: 10%;
+.Background p{
+    text-align: center;
+    margin-top:1%;
+    margin-bottom:4%;
 }
 
-.Problem {
-   padding-right: 10%;
-   padding-left: 10%;
-         
+.Text{
+    padding-top:2%;
+    padding-bottom:2%;
 }
 
-.Solution{
-    padding-left: 10%;
-    padding-right: 10%;
+.Image{
+    margin-top:4%;
+    margin-bottom:2%
 }
 
-.Process{
-    padding-left: 10%;
-    padding-right: 10%
+.Image1{
+    margin-top:5.5%;
+}
+
+.Image2{
+    margin-top:5%;
 }
 
 .Identity{
     padding-bottom:2%;
-}
-
-.BIdentity{
-    background-color:#FBF2F5;
-}
-
-.LogoColor img{
-    margin-top:2%
-}
-
-.LogoColor p{
-    margin-top: 1%;
-}
-
-.Mockups{
-    padding-top:2%;
-    padding-bottom:2%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.Mocks{
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: #FBF2F5;
-}
-
-.Circles img{
-    margin-top: 4%;
-}
-
-.Circles p{
-    margin-top: 1%;
-}
-
-.Neat img{
-    margin-top: 9%
-}
-
-.Neat p{
-    margin-top: 1%
-}
-
-.HomeMocks{
-    padding-top:2%;
-    padding-bottom:2%;
-    padding-right: 10%;
-    padding-left: 10%
-}
-
-.HomeMockups{
-    padding-left: 20%;
-    padding-right: 20%;
-    background-color: #FBF2F5;
-}
-
-.Profile img{
-    margin-top:4%;
-}
-
-.Profile p{
-    margin-top: 3%;
-}
-
-.Comments img{
-    margin-top: 4%;
-}
-
-.Comments p{
-    margin-top: 1%;
-}
-
-.ChartText{
-    padding-top:2%;
-    padding-bottom:2%;
-    padding-right:10%;
-    padding-left:10%;
-}
-
-.Charts{
-    background-color:#FBF2F5;
-    padding-left:10%;
-    padding-right:10%
-}
-
-.FirstChart img{
-    margin-top: 4%;
-}
-
-.FirstChart p{
-    margin-top: 1%;
-}
-
-.RevisedChart img{
-    margin-top: 7%;
-}
-
-.RevisedChart p{
-    margin-top: 1%;
-}
-   
-.Identity {
-   padding-left: 10%;
-   padding-right: 10%;   
-}
-
-.Thoughts {
-   padding-top:2%;
-   padding-bottom:2%;
-   padding-left: 10%;
-   padding-right: 10%;    
 }
 
 p {

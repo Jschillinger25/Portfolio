@@ -16,7 +16,7 @@ body, html {
 
 .column.full { width: 100%; padding-right:10%; padding-left:10%; }
 .column.two-thirds { width: 66.7%; }
-.column.half { width: 50%; }
+.column.half { width: 50%;}
 .column.third { width: 33.3%; }
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
