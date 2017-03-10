@@ -36,6 +36,21 @@ button{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+.LetsTalk button{
+    background-color: #3090A6;
+    border: none;
+    color: white;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: inherit;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top:5%;
+}
+
 .nav-container h4:hover, .portfolio-nav h3:hover, .contact-info a:hover {
   cursor: pointer;
 }
@@ -153,8 +168,7 @@ body{
 
 .portfolio img{
     width: 644px;
-    margin-left: -8%;
-    margin-top: -10;
+    margin-top: 3%;
 }
 
 .portfolio-content{
@@ -180,7 +194,7 @@ body{
 }
 
 .skills{
-    height: 100%;
+    height: 120%;
 }
 
 .skills h3{
@@ -201,46 +215,53 @@ body{
 }
 
 .list-one{
-    margin-left: 38%;
+    margin-left: 40.5%;
     font-size: 24px;
     margin-top: -5%;
 }
 
 .list-two{
-    margin-left: %;
+    margin-left: 10%;
     font-size: 24px;
     margin-top: -5%;
+}
+
+.SkillButton{
+    margin-top:2%
 }
 
 .skills button{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7%;
+    text-decoration:none;
+}
+
+.SkillButton a{
+    text-decoration: none;
 }
 
 .contact{
     height: 100%;
-    background-image:url(../images/contact%20background.png);
+    background-image:url(../images/ContactTriangle.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100%;
 }
 
 .contact-img{
-    margin-top: 25%;
-    margin-left:35%;
     width: 450px;
+    margin-left:40%
+    
 }
 
 .contact-info{
     float:right;
-    margin-top: 10%
 }
 
 .contact p{
     display: block;
-    text-align: right;
+    text-align: center;
     /*padding-right: 5%;*/
     font-size: 48px;
     color: #3090A6;
@@ -250,8 +271,40 @@ body{
     text-decoration: none;
 }
 
+.contact1{
+    padding-left:35%;
+    margin-top:5%;
+}
+
+.contact1 p{
+    color:white;
+}
+
+.Contact2{
+    margin-top:18%;
+    padding-left:15%;
+}
+
+.git a{
+    padding-left:60%
+}
+
+.linked{
+    padding-left:1%
+}
+
 .about-images{
     text-align: center;
+}
+
+.contact button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.LetsTalk a{
+    text-decoration: none;
 }
 
 ul {

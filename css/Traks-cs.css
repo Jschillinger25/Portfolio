@@ -40,7 +40,7 @@ body, html {
     color: black;
     padding-right: 50px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 1.7rem;
     font-weight: bold;
     font-family: didot;
 }
@@ -48,7 +48,8 @@ body, html {
 
 .hero-img{
     margin-top: 12%;
-    width: 700px;
+    width: 80%;
+    height:auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -59,13 +60,18 @@ body, html {
     text-align: center;
 }
 
-p{
-    text-align: left;
+ol li{
+    font-size:1.5rem;
+    text-align:left;
+    font-family:didot;
 }
 
-ol{
-    font-size:25px;
-    text-align:left;
+.TextLeft{
+    padding-left:10%;
+}
+
+.TextRight{
+    padding-right:10%;
 }
 
 .Background{
@@ -88,6 +94,16 @@ ol{
     margin-bottom:2%
 }
 
+.SizeImg img{
+    height:auto;
+    width:75%;
+}
+
+.SizeImg1 img{
+    height:auto;
+    width:72%;
+}
+
 .Image1{
     margin-top:5.5%;
 }
@@ -105,6 +121,10 @@ ol{
     padding-bottom:.5%
 }
 
+.Image5 img{
+    margin-top:25%
+}
+
 .ImageNoCaption{
     margin-top:4%;
     margin-bottom:4%;
@@ -118,15 +138,22 @@ p {
     font-size: 25px;
     font-weight: normal;
     font-family: didot;
+    text-align:left;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 2rem;
     color: #28A9BF;
 }
 
+.Black{
+    text-align:left;
+    color:black;
+    font-size: 1.5rem;
+}
+
 h2 {
-    font-size: 35px;
+    font-size: 2.5rem;
     color: #F3B040;
 }
 
@@ -134,6 +161,166 @@ h4{
     font-size:25px;
 }
 
-.link {
+.link a{
     font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+   html { font-size: 120%; }
+   .column.third { width: 100%; }
+   .column.third img{
+        height: auto;
+        width: 70%;
+    
+    }
+    
+    .logo{
+        position:absolute;
+        left: 2%;
+        top: 2%;
+        width: 10%;
+    }
+    
+     .size img{
+        position:absolute;
+        height:auto;
+        width:80%;  
+    }
+    
+    .img-background p{
+        font-size: .8rem;
+    }
+    
+    .TextLeft{
+    padding-right:10%;
+    }
+
+    .TextRight{
+    padding-left:10%;
+    }
+    
+    .Extra{
+        width:80%;
+        height:auto;
+    }
+    
+    .column.half { width: 100%; }
+    
+    .half-text-left{
+        padding-right: 10%;
+     }
+
+     .half-text-right{
+        padding-left: 10%;
+     }
+     
+     p{
+        font-size: 1rem;
+        font-weight: normal;
+        font-family: didot;
+     }
+
+     h3{
+        font-size: 1.7rem;
+     }
+
+     h1{
+        font-size: 2.0rem;
+     }
+
+     h2{
+        font-size: 1.2rem;
+     }
+
+     h4{
+        text-align: left;
+        font-size: 1.3em;
+        margin-bottom:0%;
+     }
+     
+     .column.fourth { width: 100%; }
+     .column.fourth img{
+         height: 40%;
+        width: 40%;
+     }
+     
+     .nav-container h4{
+        font-size: .8rem;
+     }
+    
+     .Image5 img {
+    margin-top: 0%;
+    }
+    
+    .link a{
+    font-size: 1rem;
+    }
+    
+    ol li{
+        font-size:1rem;
+        text-align:left;
+    }
+     
+}
+
+@media (max-width: 400px) {
+     .img-background p{
+        font-size: .5rem;
+     }
+    
+     p{
+        font-size: .6rem;
+        font-weight: normal;
+        font-family: didot;
+     }
+    
+    ol li{
+        font-size:.5rem;
+        text-align: left;
+    }
+    
+    .Black{
+        font-size: .6rem;
+    }
+
+     h3{
+        font-size: .8rem;
+     }
+
+     h1{
+        font-size: 1.5rem;
+     }
+
+     h2{
+        font-size: 1rem;
+     }
+
+     h4{
+        text-align: left;
+        font-size: .8em;
+        margin-bottom:0%;
+     }
+     
+     .nav-container h4{
+        font-size: .5rem;
+        padding-right:20px;
+     }
+    
+    .logo{
+        position:absolute;
+        left: 2%;
+        top: 2%;
+        width: 10%;
+    }
+    
+     .size img{
+        position:absolute;
+        height:auto;
+        width:80%;  
+    }
+    
+    .link a{
+    font-size: .5rem;
+}  
+    
 }
