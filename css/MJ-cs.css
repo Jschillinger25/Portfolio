@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 
-body, html {
+ body, html {
    height:100%
 }
 
-.column {
-         float: left;
-         padding-left: 1rem;
-         padding-right: 1rem;
-     }
+ .column {
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 .column.full { width: 100%; padding-right:10%; padding-left:10%; }
 .column.two-thirds { width: 66.7%; }
@@ -24,17 +24,17 @@ body, html {
 .logo{
     position:absolute;
 }
-.nav-container{
+ .nav-container{
     display: table;
     width: 50%;
     margin:auto;
 }
 
-.nav-tabs{
+ .nav-tabs{
     text-align: left;
 }
 
-.nav-container h4{
+ .nav-container h4{
     display: table-cell;
     vertical-align: middle;
     color: black;
@@ -45,126 +45,335 @@ body, html {
     font-family: didot;
 }
 
-
-.hero-img{
+ .hero-img{
     margin-top: 12%;
-    width: 700px;
+    width: 80%;
+    height:auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 
-.column{
+ .column{
     text-align: center;
 }
 
-p{
-    text-align: left;
+ .SizeImg img{
+    height:auto;
+    width:75%;
 }
 
-img{
+ .SizeImg1 img{
+    height:auto;
+    width:75%;
+}
+
+ img{
     margin-top:4%;
 }
 
-p.Center{
+ p.Center{
     text-align:center;
 }
 
-.SwotSurvey{
+ .SwotSurvey{
     padding-bottom:2%;
 }
 
-.Text{
+ .Text{
     padding-top:2%;
     padding-bottom: 2%;
 }
 
-.Text p{
+ .Text p{
    text-align: center;
 }
 
-.TextBlocks{
+ .TextBlocks{
     padding-top:2%;
     padding-bottom:2%;
 }
 
-.Logo1{
+ .Logo1{
     padding-left:15%
 }
 
-.Logo1 img{
+ .Logo1 img{
     margin-top:5%;
 }
 
-.Logo2{
+ .Logo2{
     padding-right:15%;
 }
 
-.Logo p{
+ .Logo p{
     margin-top:1%;
     margin-bottom: 4%;
 }
 
-.Logo2 img{
+ .Logo2 img{
     margin-top:4%;
 }
 
-.Color p{
+ .Color p{
     margin-top:1%;
     padding-bottom:4%;
 }
 
-.OldMock1{
+ .OldMock1{
     margin-top:4%; 
     padding-left:15%
 }
 
-.OldMock2{
-     margin-top:9%;
-     padding-right:10%;
+ .OldMock2{
+     margin-top:4%;
+     padding-right:15%;
 }
 
-.OldMock3{
-     margin-top:2%;
-    padding-right:9%
-}
-
-.NewMock1{
-    margin-top:4.5%;
+ .NewMock1{
+    margin-top:4%;
     padding-left:15%;
 }
 
-.NewMock2{
-     margin-top:9%; 
-     padding-right:10%;
+ .NewMock2{
+     margin-top:4%; 
+     padding-right:15%;
 }
 
-.NewMock3{
-    margin-top:2%;
-    padding-right:9%;
-}
-
-p {
+ p {
     font-size: 25px;
     font-weight: normal;
     font-family: didot;
+    text-align:left;
 }
 
-h3 {
+ h3 {
     font-size: 30px;
     color: #D44357;
 }
 
-h2 {
+ h2 {
     font-size: 35px;
     color: #9DB9C3;
 }
 
-h4{
+ h4{
     font-size:25px;
 }
 
-.link {
+ .link {
     font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+   html { font-size: 120%; }
+   .column.third { width: 100%; }
+   .column.third img{
+        height: auto;
+        width: 70%;
+    }
+    
+    .logo{
+        position:absolute;
+        left: 2%;
+        top: 2%;
+        width: 10%;
+    }
+    
+     .Logo1 img{
+        height:auto;
+        width:50%;
+    }
+     .Logo2 img{
+        height:auto;
+        width:50%;
+    }
+    
+     .size img{
+        position:absolute;
+        height:auto;
+        width:80%;  
+     }
+    
+     .img-background p{
+        font-size: .8rem;
+    }
+    
+     .Extra{
+        width:80%;
+        height:auto;
+    }
+    
+     .column.half { 
+         width: 50%; 
+    }
+    
+     .column.half.Horizontal{
+        width:50%;
+    }
+     
+     p{
+        font-size: 1rem;
+        font-weight: normal;
+        font-family: didot;
+     }
+
+     h3{
+        font-size: 1.7rem;
+     }
+
+     h1{
+        font-size: 2.0rem;
+     }
+
+     h2{
+        font-size: 1.2rem;
+     }
+
+     h4{
+        text-align: left;
+        font-size: 1.3em;
+        margin-bottom:0%;
+     }
+     
+      .column.fourth { 
+          width: 25%; 
+    }
+     .column.fourth img{
+         height: 40%;
+         width: 40%;
+    }
+    
+     .column.fourth p{
+        font-size:.7rem;
+    }
+    
+     .column.full.Display{
+        width:100%;
+    }
+     
+     .nav-container h4{
+        font-size: .8rem;
+    }
+    
+     .Image5 img {
+        margin-top: 0%;
+    }
+    
+     .link a{
+        font-size: 1rem;
+    }
+     
+}
+
+@media (max-width: 400px) {
+     .img-background p{
+        font-size: .5rem;
+    }
+    
+      .column.fourth { 
+          width: 48%; 
+    }
+     .column.fourth img{
+         height: 40%;
+         width: 40%;
+    }
+    
+     .column.fourth p{
+        font-size:.5rem;
+    }
+    
+     .column.half{
+        width:100%;
+    }
+    
+     .column.half.Horizontal{
+        width:50%;
+    }
+    
+     .Logo1{
+        padding-right:15%;
+    }
+     .Logo2{
+        padding-left:15%;
+    }
+    
+     p{
+        font-size: .6rem;
+        font-weight: normal;
+        font-family: didot;
+    }
+    
+     .Black{
+        font-size: .6rem;
+    }
+
+     h3{
+        font-size: .8rem;
+    }
+
+     h1{
+        font-size: 1.5rem;
+    }
+
+     h2{
+        font-size: 1rem;
+    }
+
+     h4{
+        text-align: left;
+        font-size: .8em;
+        margin-bottom:0%;
+    }
+     
+     .nav-container h4{
+        font-size: .5rem;
+        padding-right:20px;
+    }
+    
+    .logo{
+        position:absolute;
+        left: 2%;
+        top: 2%;
+        width: 10%;
+    }
+    
+     .size img{
+        position:absolute;
+        height:auto;
+        width:80%;  
+    }
+    
+     .link a{
+        font-size: .5rem;
+    } 
+     .OldMock1{
+        margin-top:4%; 
+        padding-right:15%
+    }
+
+     .OldMock2{
+        margin-top:4%;
+        padding-left:15%;
+    }
+
+     .NewMock1{
+        margin-top:4%;
+        padding-right:15%;
+    }
+
+     .NewMock2{
+        margin-top:4%; 
+        padding-left:15%;
+   }
+    .Logo1 img{
+        height:auto;
+        width:100%;
+   }
+    .Logo2 img{
+        height:auto;
+        width:100%;
+   }
+    
 }
