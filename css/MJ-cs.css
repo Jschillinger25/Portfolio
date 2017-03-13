@@ -264,8 +264,50 @@
      .link a{
         font-size: 1rem;
     }
-     
 }
+
+@media (max-width:525px) {
+     .column.fourth { 
+          width: 48%; 
+    }
+     .column.fourth img{
+         height: 40%;
+         width: 40%;
+    }
+    
+     .column.fourth p{
+        font-size:.5rem;
+    } 
+    
+     .column.half{
+        width:100%;
+    }
+    
+     .OldMock1{
+        margin-top:4%; 
+        padding-right:15%
+    }
+
+     .OldMock2{
+        margin-top:4%;
+        padding-left:15%;
+    }
+
+     .NewMock1{
+        margin-top:4%;
+        padding-right:15%;
+    }
+
+     .NewMock2{
+        margin-top:4%; 
+        padding-left:15%;
+   }
+    
+    .column.fourth{
+        width:48%;
+    }
+}
+
 
 @media (max-width: 400px) {
      .img-background p{

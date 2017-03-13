@@ -108,6 +108,7 @@ body{
     font-size: 1.5rem;
     display: table-cell;
     vertical-align: middle;
+  
 }
 
 .Headings h2{
@@ -561,7 +562,7 @@ li:nth-child(odd)::before{
     
      .logo{
         position:absolute;
-        left: 2%;
+        left: 1%;
         top: 2%;
         width: 10%;
     }
