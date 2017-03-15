@@ -33,6 +33,7 @@ $(".portfolio-traks").on("click", function() {
     $(".open-hand-laptop").addClass("hidden");
     $(".mj-photography-laptop").addClass("hidden");
     $(".collabormate-laptop").addClass("hidden");
+    $(".bloc-jams-laptop").addClass("hidden");
 });
 
 $(".portfolio-open-hand").on("click", function() {
@@ -46,6 +47,7 @@ $(".portfolio-open-hand").on("click", function() {
     $(".open-hand-laptop").removeClass("hidden");
     $(".mj-photography-laptop").addClass("hidden");
     $(".collabormate-laptop").addClass("hidden");
+    $(".bloc-jams-laptop").addClass("hidden");
 });
 
 $(".portfolio-bloc-jams").on("click", function() {
@@ -59,6 +61,7 @@ $(".portfolio-bloc-jams").on("click", function() {
     $(".open-hand-laptop").addClass("hidden");
     $(".mj-photography-laptop").addClass("hidden");
     $(".collabormate-laptop").addClass("hidden");
+    $(".bloc-jams-laptop").removeClass("hidden");
 });
 
 $(".portfolio-collabormate").on("click", function() {
@@ -72,6 +75,7 @@ $(".portfolio-collabormate").on("click", function() {
     $(".open-hand-laptop").addClass("hidden");
     $(".mj-photography-laptop").addClass("hidden");
     $(".collabormate-laptop").removeClass("hidden");
+    $(".bloc-jams-laptop").addClass("hidden");
 });
 
 $(".portfolio-MJ-Photography").on("click", function() {
@@ -85,17 +89,184 @@ $(".portfolio-MJ-Photography").on("click", function() {
     $(".open-hand-laptop").addClass("hidden");
     $(".mj-photography-laptop").removeClass("hidden");
     $(".collabormate-laptop").addClass("hidden");
+    $(".bloc-jams-laptop").addClass("hidden");
 });
 
-$(document).ready(function() {
-    $(".portfolio-traks").addClass("selected");
+$(".MJ-photography-right-arrow").on("click", function(){
+    $(".portfolio-bloc-jams").addClass("selected");
+    $(".portfolio-traks").removeClass("selected");
     $(".portfolio-open-hand").removeClass("selected");
-    $(".portfolio-bloc-jams").removeClass("selected");
     $(".portfolio-collabormate").removeClass("selected");
     $(".portfolio-MJ-Photography").removeClass("selected");
     
-    $(".traks-laptop").removeClass("hidden");
+    $(".traks-laptop").addClass("hidden");
     $(".open-hand-laptop").addClass("hidden");
     $(".mj-photography-laptop").addClass("hidden");
     $(".collabormate-laptop").addClass("hidden");
+    $(".bloc-jams-laptop").removeClass("hidden");
+});
+
+$(".bloc-jams-right-arrow").on("click", function(){
+    $(".portfolio-traks").addClass("selected");
+    $(".portfolio-bloc-jams").removeClass("selected");
+    $(".portfolio-open-hand").removeClass("selected");
+    $(".portfolio-collabormate").removeClass("selected");
+    $(".portfolio-MJ-Photography").removeClass("selected");
+    
+    $(".bloc-jams-laptop").addClass("hidden");
+    $(".open-hand-laptop").addClass("hidden");
+    $(".mj-photography-laptop").addClass("hidden");
+    $(".collabormate-laptop").addClass("hidden");
+    $(".traks-laptop").removeClass("hidden");
+});
+
+$(".bloc-jams-left-arrow").on("click", function(){
+    $(".portfolio-MJ-Photography").addClass("selected");
+    $(".portfolio-bloc-jams").removeClass("selected");
+    $(".portfolio-open-hand").removeClass("selected");
+    $(".portfolio-collabormate").removeClass("selected");
+    $(".portfolio-traks").removeClass("selected");
+    
+    $(".bloc-jams-laptop").addClass("hidden");
+    $(".open-hand-laptop").addClass("hidden");
+    $(".traks-laptop").addClass("hidden");
+    $(".collabormate-laptop").addClass("hidden");
+    $(".mj-photography-laptop").removeClass("hidden");
+});
+
+$(".traks-right-arrow").on("click", function(){
+    $(".portfolio-collabormate").addClass("selected");
+    $(".portfolio-bloc-jams").removeClass("selected");
+    $(".portfolio-open-hand").removeClass("selected");
+    $(".portfolio-traks").removeClass("selected");
+    $(".portfolio-MJ-Photography").removeClass("selected");
+    
+    $(".bloc-jams-laptop").addClass("hidden");
+    $(".open-hand-laptop").addClass("hidden");
+    $(".mj-photography-laptop").addClass("hidden");
+    $(".traks-laptop").addClass("hidden");
+    $(".collabormate-laptop").removeClass("hidden");
+});
+
+$(".traks-left-arrow").on("click", function(){
+    $(".portfolio-bloc-jams").addClass("selected");
+    $(".portfolio-MJ-Photography").removeClass("selected");
+    $(".portfolio-open-hand").removeClass("selected");
+    $(".portfolio-collabormate").removeClass("selected");
+    $(".portfolio-traks").removeClass("selected");
+    
+    $(".mj-photography-laptop").addClass("hidden");
+    $(".open-hand-laptop").addClass("hidden");
+    $(".traks-laptop").addClass("hidden");
+    $(".collabormate-laptop").addClass("hidden");
+    $(".bloc-jams-laptop").removeClass("hidden");
+});
+
+$(".collabormate-right-arrow").on("click", function(){
+    $(".portfolio-open-hand").addClass("selected");
+    $(".portfolio-bloc-jams").removeClass("selected");
+    $(".portfolio-collabormate").removeClass("selected");
+    $(".portfolio-traks").removeClass("selected");
+    $(".portfolio-MJ-Photography").removeClass("selected");
+    
+    $(".bloc-jams-laptop").addClass("hidden");
+    $(".collabormate-laptop").addClass("hidden");
+    $(".mj-photography-laptop").addClass("hidden");
+    $(".traks-laptop").addClass("hidden");
+    $(".open-hand-laptop").removeClass("hidden");
+});
+
+$(".collabormate-left-arrow").on("click", function(){
+    $(".portfolio-traks").addClass("selected");
+    $(".portfolio-bloc-jams").removeClass("selected");
+    $(".portfolio-collabormate").removeClass("selected");
+    $(".portfolio-open-hand").removeClass("selected");
+    $(".portfolio-MJ-Photography").removeClass("selected");
+    
+    $(".bloc-jams-laptop").addClass("hidden");
+    $(".collabormate-laptop").addClass("hidden");
+    $(".mj-photography-laptop").addClass("hidden");
+    $(".open-hand-laptop").addClass("hidden");
+    $(".traks-laptop").removeClass("hidden");
+});
+
+$(".open-hand-left-arrow").on("click", function(){
+    $(".portfolio-collabormate").addClass("selected");
+    $(".portfolio-bloc-jams").removeClass("selected");
+    $(".portfolio-open-hand").removeClass("selected");
+    $(".portfolio-traks").removeClass("selected");
+    $(".portfolio-MJ-Photography").removeClass("selected");
+    
+    $(".bloc-jams-laptop").addClass("hidden");
+    $(".open-hand-laptop").addClass("hidden");
+    $(".mj-photography-laptop").addClass("hidden");
+    $(".traks-laptop").addClass("hidden");
+    $(".collabormate-laptop").removeClass("hidden");
+});
+
+function checkWidth() {
+  if ($(window).width() < 650) {
+      $('.trak-right-arrow').removeClass('hidden');
+      $('.blocjams-right-arrow').removeClass('hidden');
+      $('.MJ-photography-right-arrow').removeClass('hidden');
+      $('.collabormate-right-arrow').removeClass('hidden');
+
+      $('.blocjams-left-arrow').removeClass('hidden');
+      $('.traks-left-arrow').removeClass('hidden');
+      $('.open-hand-left-arrow').removeClass('hidden');
+      $('.collabormate-left-arrow').removeClass('hidden');
+  } else {
+      $('.trak-right-arrow').addClass('hidden');
+      $('.blocjams-right-arrow').addClass('hidden');
+      $('.MJ-photography-right-arrow').addClass('hidden');
+      $('.collabormate-right-arrow').addClass('hidden');
+
+      $('.blocjams-left-arrow').addClass('hidden');
+      $('.traks-left-arrow').addClass('hidden');
+      $('.open-hand-left-arrow').addClass('hidden');
+      $('.collabormate-left-arrow').addClass('hidden');
+  }
+}
+
+function mobileWidth() {
+  if ($(window).width() < 650) {
+      $('.trak-right-arrow').removeClass('hidden');
+      $('.blocjams-right-arrow').removeClass('hidden');
+      $('.MJ-photography-right-arrow').removeClass('hidden');
+      $('.collabormate-right-arrow').removeClass('hidden');
+
+      $('.blocjams-left-arrow').removeClass('hidden');
+      $('.traks-left-arrow').removeClass('hidden');
+      $('.open-hand-left-arrow').removeClass('hidden');
+      $('.collabormate-left-arrow').removeClass('hidden');
+  } else {
+      $('.trak-right-arrow').addClass('hidden');
+      $('.blocjams-right-arrow').addClass('hidden');
+      $('.MJ-photography-right-arrow').addClass('hidden');
+      $('.collabormate-right-arrow').addClass('hidden');
+
+      $('.blocjams-left-arrow').addClass('hidden');
+      $('.traks-left-arrow').addClass('hidden');
+      $('.open-hand-left-arrow').addClass('hidden');
+      $('.collabormate-left-arrow').addClass('hidden');
+  }
+}
+
+$(window).resize(checkWidth);
+
+$(window).width(mobileWidth);
+
+$(document).ready(function() {
+    $(".portfolio-MJ-Photography").addClass("selected");
+    $(".portfolio-open-hand").removeClass("selected");
+    $(".portfolio-bloc-jams").removeClass("selected");
+    $(".portfolio-collabormate").removeClass("selected");
+    $(".portfolio-traks").removeClass("selected");
+    
+    $(".mj-photography-laptop").removeClass("hidden");
+    $(".open-hand-laptop").addClass("hidden");
+    $(".traks-laptop").addClass("hidden");
+    $(".collabormate-laptop").addClass("hidden");
+    $(".bloc-jams-laptop").addClass("hidden");
+    
 });
