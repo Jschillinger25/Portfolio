@@ -78,7 +78,7 @@ button{
   position: absolute;
   
   margin-top: 10%;
-  right:  -10px;
+  right:  10px;
   color: #73D0E5;
 }
 
@@ -98,14 +98,14 @@ button:hover{
 .bloc-jams-right-arrow{
   position: absolute;
   margin-top: 10%;
-  right:  -10px;
+  right:  10px;
   color: #73D0E5;
 }
 
 .bloc-jams-left-arrow{
   position: absolute;
   margin-top: 10%;
-  left:  -10px;
+  left:  10px;
   color: #73D0E5;
 }
 
@@ -116,14 +116,14 @@ button:hover{
 .traks-right-arrow{
   position: absolute;
   margin-top: 10%;
-  right:  -10px;
+  right:  10px;
   color: #73D0E5;
 }
 
 .traks-left-arrow{
   position: absolute;
   margin-top: 10%;
-  left:  -10px;
+  left:  10px;
   color: #73D0E5;
 }
 
@@ -134,14 +134,14 @@ button:hover{
 .collabormate-right-arrow{
   position: absolute;
   margin-top: 10%;
-  right:  -10px;
+  right:  10px;
   color: #73D0E5;
 }
 
 .collabormate-left-arrow{
   position: absolute;
   margin-top: 10%;
-  left:  -10px;
+  left: 10px;
   color: #73D0E5;
 }
 
@@ -152,7 +152,7 @@ button:hover{
 .open-hand-left-arrow{
   position: absolute;
   margin-top: 10%;
-  left: -10px;
+  left: 10px;
   color: #73D0E5;
 }
 
@@ -483,7 +483,7 @@ li:before {
 }
 
 li:nth-child(odd)::before{
-  color: #73D0E5;
+  color: #3090A6;
 }
 
 .second{
