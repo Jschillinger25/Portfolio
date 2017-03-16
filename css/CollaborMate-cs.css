@@ -12,11 +12,12 @@ body, html {
          float: left;
          padding-left: 1rem;
          padding-right: 1rem;
-     }
+}
 
-.column.full { width: 100%; padding-right:10%; padding-left: 10%; }
+.column.full { width: 100%; padding-left:10%;
+    padding-right:10%; padding-top: 2%;}
 .column.two-thirds { width: 66.7%; }
-.column.half { width: 50%;}
+.column.half { width: 50%; }
 .column.third { width: 33.3%; }
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
@@ -24,6 +25,13 @@ body, html {
 .logo{
     position:absolute;
 }
+
+.logo img{
+    width: 100%;
+    left:2%;
+    top:2%;
+}
+
 .nav-container{
     display: table;
     width: 50%;
@@ -38,125 +46,261 @@ body, html {
     display: table-cell;
     vertical-align: middle;
     color: black;
-    padding-right: 50px;
+    padding-right: 10%;
     text-decoration: none;
-    font-size: 24px;
     font-weight: bold;
-    font-family: didot;
+    text-decoration: none;
+}
+
+.nav-container h4 a{
+    text-decoration: none;
+    color: black;
 }
 
 
 .hero-img{
     margin-top: 12%;
-    width: 700px;
+    width:80%;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-
 .column{
     text-align: center;
+}
+
+.img-background{
+    background-color:#FBF7EF;
+}
+
+.text-left{
+    padding-left: 10%;
+}
+
+.text-right{
+    padding-right: 10%;
+}
+
+.font-page-elements img{
+    width: 90%;
 }
 
 p{
     text-align: left;
 }
 
-.Background{
-    background-color: #F6F6F6;
-}
-
-.Background p{
-    text-align: center;
-    margin-top:1%;
-    margin-bottom:4%;
-}
-
-.Text{
-    padding-top:2%;
-    padding-bottom:2%;
-}
-
-.Image{
-    margin-top:4%;
-    margin-bottom:2%
-}
-
-.Solution{
-    padding-bottom:2%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.SwotPersonaPics img{
-    height: 400px;
-}
-
-.CMate img{
-    height: 300px;
-    margin-top: 4%;
-}
-
-.CMateChosen img{
-    margin-top: 15%;
-    margin-bottom: 11%;   
-}
-
-.CMateLogo2 img{
-    height: 300px;
-    margin-top: 4%;
-}
-
-.Bright img{
-    height: 440px;
-    margin-top: 4%;
-}
-
-.Earthy img{
-    margin-top: 4%;
-}
-
-.Picked img{
-    margin-top: 4%;
-}
-
-.Picked p{
-    margin-top: 1%;
-    font-family: didot;
-}
-
-.Pricing img{
-    height: 400px;
-}
-
-.Image1{
-    margin-top:5%;
-}
-
-.Thoughts {
-   padding-top:2%;
-   padding-bottom:2%;
-   padding-left: 10%;
-   padding-right: 10%;    
-}
-
-p {
-    font-size: 25px;
+p{
+    font-size: 1.2rem;
     font-weight: normal;
-    font-family: didot; 
+    text-align: left;
+    Font-family: Didot, Helvetica, Arial, sans-serif;
 }
 
-h3 {
-    font-size: 30px;
+h3{
+    font-size: 2rem;
     color: #E37222;
+    Font-family: Didot, Helvetica, Arial, sans-serif;
 }
 
-h2 {
-    font-size: 35px;
+h1{
+    font-size: 2.3rem;
     color: #778EB4;
+    margin: 0%;
+    Font-family: Didot, Helvetica, Arial, sans-serif; 
 }
 
-.link {
-    font-size: 20px;
+h2{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: lighter;
+    Font-family: Didot, Helvetica, Arial, sans-serif; 
+}
+
+h4{
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom:0%;
+    Font-family: Didot, Helvetica, Arial, sans-serif;
+}
+
+.reflections{
+    margin-bottom: 10%
+}
+
+.SWOT img{
+    height: auto;
+    width: 50%;
+}
+
+.logo-ideas img{
+    width: 70%;
+}
+
+.nav-bar img{
+    height: 400px;
+}
+
+.nav-container a:hover{
+    color: #D6665A;
+}
+
+.Persona img{
+    height: auto;
+    width: 90%;
+}
+
+.img-background p{
+    text-align: center;
+    margin-top: 0%;
+}
+
+.sign-in-img img{
+    width:100%;
+    height: 200px;
+    object-fit:scale-down;
+}
+
+.home-page-img img{
+    width: 40%;
+}
+
+
+.reflections{
+    margin-bottom: 5%
+}
+
+button {
+    background-color: #778EB4;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 15px;
+    margin-bottom: 5%;
+    font-family:didot, helvetica, arial,sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    padding: 1.5x 1.5x;
+    font-weight: 600;
+}
+@media (max-width: 790px){
+   html { font-size: 112%; }
+   
+    .logo.column.full{
+        padding-right:0%;
+        padding-left:0%;
+    }
+    
+   .nav-bar img{
+        height: 300px;
+    }
+    
+    .logo img{
+        width:75%;
+    }
+    
+    .nav-container h4{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 575px){
+   html { font-size: 112%; }
+   
+    .nav-bar.column.third{
+        width: 100%;
+    }
+    .img-background p{
+    font-size: 18px;
+}
+    .logo img{
+        width:60%;
+    }
+    
+    .nav-container h4{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .column.half{
+        width: 100%;
+    }
+    
+    .logo-ideas.column.third {
+        width: 100%;
+    }
+    
+    .logo-ideas img{
+        width: 40%;
+    }
+    
+    .text-right{
+        padding-left: 10%;
+    }
+
+    .text-left{
+        padding-right: 10%; 
+    }
+    
+    .sign-in-img.column.third{
+        width: 100%;
+    }
+    
+    .home-page-img img{
+    width: 60%;
+}
+}
+
+@media (max-width: 400px) {
+     .img-background p{
+        font-size: .5rem;
+     }
+    
+     .logo-img img{
+        width: 50px;
+        height: 50px;
+        object-fit:cover;
+     }
+    
+     p{
+        font-size: .7rem;
+     }
+
+     h3{
+        font-size: 1rem;
+     }
+
+     h1{
+        font-size: 1.5rem;
+     }
+
+     h2{
+        font-size: .8rem;
+     }
+
+     h4{
+        text-align: left;
+        font-size: .8em;
+        margin-bottom:0%;
+     }
+     
+     .nav-container h4{
+        font-size: .5rem;
+     }
+    
+    .logo{
+        position:absolute;
+        left: 2%;
+        top: 2%;
+        width: 10%;
+    }
+    
 }

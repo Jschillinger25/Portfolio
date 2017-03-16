@@ -12,18 +12,31 @@ body, html {
          float: left;
          padding-left: 1rem;
          padding-right: 1rem;
-     }
+}
 
-.column.full { width: 100%; padding-right:10%; padding-left:10%; }
+.column.full { width: 100%; padding-left:10%;
+    padding-right:10%;}
 .column.two-thirds { width: 66.7%; }
-.column.half { width: 50%;}
+.column.half { width: 50%; }
 .column.third { width: 33.3%; }
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
 
 .logo{
     position:absolute;
+    left: 2%;
+    top: 2%;
 }
+
+.logo img{
+    width: 100%;
+}
+
+h4 a{
+    text-decoration: none;
+    color: black
+}
+
 .nav-container{
     display: table;
     width: 50%;
@@ -37,27 +50,40 @@ body, html {
 .nav-container h4{
     display: table-cell;
     vertical-align: middle;
-    color: black;
-    padding-right: 50px;
+    padding-right: 8%;
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    font-family: didot;
 }
 
+.nav-container a:hover{
+    color: #D6665A;
+}
 
 .hero-img{
     margin-top: 12%;
-    width: 80%;
-    height:auto;
+    width:80%;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 
+.half-text-left{
+    padding-left: 10%;
+}
+
+.half-text-right{
+    padding-right: 10%;
+}
+
 .column{
     text-align: center;
+}
+
+p{
+    text-align: left;
 }
 
 ol li{
@@ -82,6 +108,7 @@ ol li{
     text-align: center;
     margin-top:1%;
     margin-bottom:4%;
+    font-size: 18px;
 }
 
 .Text{
@@ -91,7 +118,19 @@ ol li{
 
 .Image{
     margin-top:4%;
-    margin-bottom:2%
+    margin-bottom:2%;
+}
+
+.survey-Image{
+    margin-top:4%;
+    margin-bottom:2%;
+    display: table;
+    height: 250px;
+    text-align: center;
+}
+
+.survey-content{
+    
 }
 
 .SizeImg img{
@@ -102,10 +141,6 @@ ol li{
 .SizeImg1 img{
     height:auto;
     width:72%;
-}
-
-.Image1{
-    margin-top:5.5%;
 }
 
 .Image2{
@@ -161,8 +196,28 @@ h4{
     font-size:25px;
 }
 
-.link a{
-    font-size: 20px;
+.reflections{
+    margin-bottom: 5%
+}
+
+button {
+    background-color: #F3B040;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 15px;
+    margin-bottom: 5%;
+    font-family:didot,helvetica,arial,sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    padding: 1.5x 1.5x;
+    font-weight: 600;
 }
 
 @media (max-width: 1024px) {
@@ -205,6 +260,8 @@ h4{
     }
     
     .column.half { width: 100%; }
+    
+    
     
     .half-text-left{
         padding-right: 10%;
@@ -260,8 +317,26 @@ h4{
         font-size:1rem;
         text-align:left;
     }
+    
+    .survey-Image{
+    margin-top:4%;
+    margin-bottom:2%;
+    display: table;
+    height: 250px;
+    
+}
      
 }
+
+@media (max-width: 700px) {
+    .survey-Image{
+        margin-top:4%;
+        margin-bottom:2%;
+        display: table;
+        height: 200px;
+    }
+}
+
 
 @media (max-width: 400px) {
      .img-background p{
@@ -319,8 +394,20 @@ h4{
         width:80%;  
     }
     
-    .link a{
-    font-size: .5rem;
-}  
+    .survey-Image{
+        margin-top:4%;
+        margin-bottom:2%;
+        display: table;
+        height: 200px;
+    }
+    
+    .survey-content{
+        vertical-align: bottom;
+        padding-top: 0%;
+    }
+    
+    .Background p{
+        font-size: .6rem;
+    }
     
 }

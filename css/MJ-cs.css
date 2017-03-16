@@ -24,6 +24,11 @@
 .logo{
     position:absolute;
 }
+
+.logo img {
+     width: 100%;
+}
+
  .nav-container{
     display: table;
     width: 50%;
@@ -43,10 +48,11 @@
     font-size: 24px;
     font-weight: bold;
     font-family: didot;
+    padding-top:5%; 
 }
 
  .hero-img{
-    margin-top: 12%;
+    margin-top: 8%;
     width: 80%;
     height:auto;
     display: block;
@@ -57,6 +63,20 @@
 
  .column{
     text-align: center;
+}
+
+button {
+    background-color: #9DB9C3;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 15px;
+    margin-bottom: 5%;
+    font-family:didot, helvetica, arial,sans-serif;
 }
 
  .SizeImg img{
@@ -228,7 +248,7 @@
      }
 
      h2{
-        font-size: 1.2rem;
+        font-size: 1.2rem; 
      }
 
      h4{
@@ -372,13 +392,6 @@
      .nav-container h4{
         font-size: .5rem;
         padding-right:20px;
-    }
-    
-    .logo{
-        position:absolute;
-        left: 2%;
-        top: 2%;
-        width: 10%;
     }
     
      .size img{
