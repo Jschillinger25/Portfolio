@@ -71,10 +71,10 @@ button{
 }
 
 .mj-photography-laptop{
-    position: relative;
+    position: ;
 }
 
-.MJ-photography-right-arrow{
+.mj-photography-right-arrow{
   position: absolute;
   
   margin-top: 10%;
@@ -83,7 +83,16 @@ button{
 }
 
 .bloc-jams-laptop{
-    position: relative;
+    position: ;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 .bloc-jams-right-arrow{
@@ -101,7 +110,7 @@ button{
 }
 
 .traks-laptop{
-    position: relative;
+    position: ;
 }
 
 .traks-right-arrow{
@@ -119,7 +128,7 @@ button{
 }
 
 .collabormate-laptop{
-    position: relative;
+    position: ;
 }
 
 .collabormate-right-arrow{
@@ -137,7 +146,7 @@ button{
 }
 
 .open-hand-laptop{
-    position: relative;
+    position: ;
 }
 
 .open-hand-left-arrow{
@@ -154,7 +163,7 @@ button{
     height: 60px;
 }
 
-.nav-container h4:hover, .portfolio-nav h3:hover, .contact-info a:hover {
+.nav-container h4:hover, .ProjectNav h3:hover, .contact-info a:hover {
   cursor: pointer;
 }
 
@@ -278,14 +287,6 @@ body{
     position: relative;
 }
 
-.ProjectNav h3:hover{
-    border-bottom: 2px dotted #FEB38D;;
-}
-
-.ProjectNav h3{
-    border-bottom: 2px dotted transparent;
-}
-
 
 .portfolio{
     height:100%;
@@ -303,6 +304,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 90px;
+    height: 305px;
 }
 
 .portfolio-content{
@@ -320,13 +322,13 @@ body{
     position: absolute;
     display: block;
     left: auto;
-    top: 20%;
+    top: 17%;
     width: 200px;
 }
 
 .portfolio-nav h3{
-    font-size: 1.2rem;
-    margin-top: 10%;
+    font-size: 1.1rem;
+    margin-top: 3%;
 }
 
 .skills{
@@ -545,6 +547,7 @@ li:nth-child(odd)::before{
         margin-left: auto;
         margin-right: auto;
         margin-top: 100px;
+        height: auto;
         
     }
     
@@ -552,14 +555,14 @@ li:nth-child(odd)::before{
         position: absolute;
         display: block;
         left: 5px;
-        top: 30%;
+        top: 20%;
         width: 150px;
         
     }
 
     .portfolio-nav h3{
-        font-size: 1rem;
-        margin-top: 5%;
+        font-size: .9rem;
+        margin-top: 0%;
     }
     
     .about li{
@@ -599,9 +602,6 @@ li:nth-child(odd)::before{
     
       .skills h3{
           font-size: 1.3rem;
-    }
-    
-    .portfolio-content{
     }
     
 
@@ -776,7 +776,7 @@ li:nth-child(odd)::before{
         width:20%;
     }
     
-    .MJ-photography.column.full{
+    .mj-photography.column.full{
         width:25%;
         text-align: center;
     }
@@ -1054,7 +1054,7 @@ li:nth-child(odd)::before{
         width:18%;
     }
     
-    .MJ-photography.column.full{
+    .mj-photography.column.full{
         width:25%;
     }
     
@@ -1133,11 +1133,11 @@ li:nth-child(odd)::before{
         width: 150px;
     }
     
-    .MJ-photography.column.full{
+    .mj-photography.column.full{
         text-align: left;
     }
     
-    .MJ-photography-right-arrow{
+    .mj-photography-right-arrow{
         margin-top: 10%;
         right:  5px;
     }

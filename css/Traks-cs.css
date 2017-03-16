@@ -50,10 +50,12 @@ h4 a{
 .nav-container h4{
     display: table-cell;
     vertical-align: middle;
+    color:black;
     padding-right: 8%;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
+    font-family:didot;
 }
 
 .nav-container a:hover{

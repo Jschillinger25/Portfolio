@@ -27,7 +27,7 @@ $(".portfolio-traks").on("click", function() {
     $(".portfolio-open-hand").removeClass("selected");
     $(".portfolio-bloc-jams").removeClass("selected");
     $(".portfolio-collabormate").removeClass("selected");
-    $(".portfolio-MJ-Photography").removeClass("selected");
+    $(".portfolio-mj-photography").removeClass("selected");
     
     $(".traks-laptop").removeClass("hidden");
     $(".open-hand-laptop").addClass("hidden");
@@ -41,7 +41,7 @@ $(".portfolio-open-hand").on("click", function() {
     $(".portfolio-traks").removeClass("selected");
     $(".portfolio-bloc-jams").removeClass("selected");
     $(".portfolio-collabormate").removeClass("selected");
-    $(".portfolio-MJ-Photography").removeClass("selected");
+    $(".portfolio-mj-photography").removeClass("selected");
     
     $(".traks-laptop").addClass("hidden");
     $(".open-hand-laptop").removeClass("hidden");
@@ -55,7 +55,7 @@ $(".portfolio-bloc-jams").on("click", function() {
     $(".portfolio-traks").removeClass("selected");
     $(".portfolio-open-hand").removeClass("selected");
     $(".portfolio-collabormate").removeClass("selected");
-    $(".portfolio-MJ-Photography").removeClass("selected");
+    $(".portfolio-mj-photography").removeClass("selected");
     
     $(".traks-laptop").addClass("hidden");
     $(".open-hand-laptop").addClass("hidden");
@@ -69,7 +69,7 @@ $(".portfolio-collabormate").on("click", function() {
     $(".portfolio-traks").removeClass("selected");
     $(".portfolio-open-hand").removeClass("selected");
     $(".portfolio-bloc-jams").removeClass("selected");
-    $(".portfolio-MJ-Photography").removeClass("selected");
+    $(".portfolio-mj-photography").removeClass("selected");
     
     $(".traks-laptop").addClass("hidden");
     $(".open-hand-laptop").addClass("hidden");
@@ -78,7 +78,7 @@ $(".portfolio-collabormate").on("click", function() {
     $(".bloc-jams-laptop").addClass("hidden");
 });
 
-$(".portfolio-MJ-Photography").on("click", function() {
+$(".portfolio-mj-photography").on("click", function() {
     $(this).addClass("selected");
     $(".portfolio-traks").removeClass("selected");
     $(".portfolio-open-hand").removeClass("selected");
@@ -92,12 +92,12 @@ $(".portfolio-MJ-Photography").on("click", function() {
     $(".bloc-jams-laptop").addClass("hidden");
 });
 
-$(".MJ-photography-right-arrow").on("click", function(){
+$(".mj-photography-right-arrow").on("click", function(){
     $(".portfolio-bloc-jams").addClass("selected");
     $(".portfolio-traks").removeClass("selected");
     $(".portfolio-open-hand").removeClass("selected");
     $(".portfolio-collabormate").removeClass("selected");
-    $(".portfolio-MJ-Photography").removeClass("selected");
+    $(".portfolio-mj-photography").removeClass("selected");
     
     $(".traks-laptop").addClass("hidden");
     $(".open-hand-laptop").addClass("hidden");
@@ -111,7 +111,7 @@ $(".bloc-jams-right-arrow").on("click", function(){
     $(".portfolio-bloc-jams").removeClass("selected");
     $(".portfolio-open-hand").removeClass("selected");
     $(".portfolio-collabormate").removeClass("selected");
-    $(".portfolio-MJ-Photography").removeClass("selected");
+    $(".portfolio-mj-photography").removeClass("selected");
     
     $(".bloc-jams-laptop").addClass("hidden");
     $(".open-hand-laptop").addClass("hidden");
@@ -121,7 +121,7 @@ $(".bloc-jams-right-arrow").on("click", function(){
 });
 
 $(".bloc-jams-left-arrow").on("click", function(){
-    $(".portfolio-MJ-Photography").addClass("selected");
+    $(".portfolio-mj-photography").addClass("selected");
     $(".portfolio-bloc-jams").removeClass("selected");
     $(".portfolio-open-hand").removeClass("selected");
     $(".portfolio-collabormate").removeClass("selected");
@@ -139,7 +139,7 @@ $(".traks-right-arrow").on("click", function(){
     $(".portfolio-bloc-jams").removeClass("selected");
     $(".portfolio-open-hand").removeClass("selected");
     $(".portfolio-traks").removeClass("selected");
-    $(".portfolio-MJ-Photography").removeClass("selected");
+    $(".portfolio-mj-photography").removeClass("selected");
     
     $(".bloc-jams-laptop").addClass("hidden");
     $(".open-hand-laptop").addClass("hidden");
@@ -150,7 +150,7 @@ $(".traks-right-arrow").on("click", function(){
 
 $(".traks-left-arrow").on("click", function(){
     $(".portfolio-bloc-jams").addClass("selected");
-    $(".portfolio-MJ-Photography").removeClass("selected");
+    $(".portfolio-mj-photography").removeClass("selected");
     $(".portfolio-open-hand").removeClass("selected");
     $(".portfolio-collabormate").removeClass("selected");
     $(".portfolio-traks").removeClass("selected");
@@ -167,7 +167,7 @@ $(".collabormate-right-arrow").on("click", function(){
     $(".portfolio-bloc-jams").removeClass("selected");
     $(".portfolio-collabormate").removeClass("selected");
     $(".portfolio-traks").removeClass("selected");
-    $(".portfolio-MJ-Photography").removeClass("selected");
+    $(".portfolio-mj-photography").removeClass("selected");
     
     $(".bloc-jams-laptop").addClass("hidden");
     $(".collabormate-laptop").addClass("hidden");
@@ -181,7 +181,7 @@ $(".collabormate-left-arrow").on("click", function(){
     $(".portfolio-bloc-jams").removeClass("selected");
     $(".portfolio-collabormate").removeClass("selected");
     $(".portfolio-open-hand").removeClass("selected");
-    $(".portfolio-MJ-Photography").removeClass("selected");
+    $(".portfolio-mj-photography").removeClass("selected");
     
     $(".bloc-jams-laptop").addClass("hidden");
     $(".collabormate-laptop").addClass("hidden");
@@ -195,7 +195,7 @@ $(".open-hand-left-arrow").on("click", function(){
     $(".portfolio-bloc-jams").removeClass("selected");
     $(".portfolio-open-hand").removeClass("selected");
     $(".portfolio-traks").removeClass("selected");
-    $(".portfolio-MJ-Photography").removeClass("selected");
+    $(".portfolio-mj-photography").removeClass("selected");
     
     $(".bloc-jams-laptop").addClass("hidden");
     $(".open-hand-laptop").addClass("hidden");
@@ -208,7 +208,7 @@ function checkWidth() {
   if ($(window).width() < 650) {
       $('.trak-right-arrow').removeClass('hidden');
       $('.blocjams-right-arrow').removeClass('hidden');
-      $('.MJ-photography-right-arrow').removeClass('hidden');
+      $('.mj-photography-right-arrow').removeClass('hidden');
       $('.collabormate-right-arrow').removeClass('hidden');
 
       $('.blocjams-left-arrow').removeClass('hidden');
@@ -218,7 +218,7 @@ function checkWidth() {
   } else {
       $('.trak-right-arrow').addClass('hidden');
       $('.blocjams-right-arrow').addClass('hidden');
-      $('.MJ-photography-right-arrow').addClass('hidden');
+      $('.mj-photography-right-arrow').addClass('hidden');
       $('.collabormate-right-arrow').addClass('hidden');
 
       $('.blocjams-left-arrow').addClass('hidden');
@@ -230,22 +230,22 @@ function checkWidth() {
 
 function mobileWidth() {
   if ($(window).width() < 650) {
-      $('.trak-right-arrow').removeClass('hidden');
-      $('.blocjams-right-arrow').removeClass('hidden');
-      $('.MJ-photography-right-arrow').removeClass('hidden');
+      $('.traks-right-arrow').removeClass('hidden');
+      $('.bloc-jams-right-arrow').removeClass('hidden');
+      $('.mj-photography-right-arrow').removeClass('hidden');
       $('.collabormate-right-arrow').removeClass('hidden');
 
-      $('.blocjams-left-arrow').removeClass('hidden');
+      $('.bloc-jams-left-arrow').removeClass('hidden');
       $('.traks-left-arrow').removeClass('hidden');
       $('.open-hand-left-arrow').removeClass('hidden');
       $('.collabormate-left-arrow').removeClass('hidden');
   } else {
-      $('.trak-right-arrow').addClass('hidden');
-      $('.blocjams-right-arrow').addClass('hidden');
-      $('.MJ-photography-right-arrow').addClass('hidden');
+      $('.traks-right-arrow').addClass('hidden');
+      $('.bloc-jams-right-arrow').addClass('hidden');
+      $('.mj-photography-right-arrow').addClass('hidden');
       $('.collabormate-right-arrow').addClass('hidden');
 
-      $('.blocjams-left-arrow').addClass('hidden');
+      $('.bloc-jams-left-arrow').addClass('hidden');
       $('.traks-left-arrow').addClass('hidden');
       $('.open-hand-left-arrow').addClass('hidden');
       $('.collabormate-left-arrow').addClass('hidden');
@@ -257,7 +257,7 @@ $(window).resize(checkWidth);
 $(window).width(mobileWidth);
 
 $(document).ready(function() {
-    $(".portfolio-MJ-Photography").addClass("selected");
+    $(".portfolio-mj-photography").addClass("selected");
     $(".portfolio-open-hand").removeClass("selected");
     $(".portfolio-bloc-jams").removeClass("selected");
     $(".portfolio-collabormate").removeClass("selected");
@@ -268,5 +268,4 @@ $(document).ready(function() {
     $(".traks-laptop").addClass("hidden");
     $(".collabormate-laptop").addClass("hidden");
     $(".bloc-jams-laptop").addClass("hidden");
-    
 });
