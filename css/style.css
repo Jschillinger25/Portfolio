@@ -921,6 +921,7 @@ li:nth-child(odd)::before{
     
     .hero-img{
         width: 200px;
+        padding-bottom:15%;
     }
     
     .about li{
@@ -955,12 +956,6 @@ li:nth-child(odd)::before{
     .about-list ul{
         margin: 0%;
         padding: 0%;
-    }
-    
-    .portfolio-button{
-        width:50%;
-        height:20%;
-        font-size: .8rem;
     }
     
     .column.full.skills{
@@ -1014,6 +1009,7 @@ li:nth-child(odd)::before{
     .contact button{
         padding: 10px 15px;
         font-size: 16px;
+        margin-bottom:20%;
     }
     
     .logo img{
@@ -1070,11 +1066,10 @@ li:nth-child(odd)::before{
         
     }
     
-    .portfolio-button{
-        width:70%;
-        height:8%;
+      .portfolio-button{
+        width:50%;
+        height:20%;
         font-size: .8rem;
-        padding: 5px 5px;
     }
 
     .programs-row img{
