@@ -1009,7 +1009,6 @@ li:nth-child(odd)::before{
     .contact button{
         padding: 10px 15px;
         font-size: 16px;
-        margin-bottom:20%;
     }
     
     .logo img{
