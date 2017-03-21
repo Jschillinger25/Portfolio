@@ -202,7 +202,7 @@ body{
 }
 
 .hero{
-    background-image: url(../images/hero%20background.png);
+    background-image: url(../images/hero_background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100%;
@@ -267,7 +267,7 @@ body{
 
 .about{
     height: 100%;
-    background-image: url(../images/about%20background.png);
+    background-image: url(../images/about_background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100%;
@@ -291,7 +291,7 @@ body{
 .portfolio{
     height:100%;
     padding: 25px;
-    background-image: url(../images/portfolio%20background.png);
+    background-image: url(../images/portfolio_background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100%;
