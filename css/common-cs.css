@@ -1,0 +1,150 @@
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+   height:100%
+}
+
+.column {
+         float: left;
+         padding-left: 1rem;
+         padding-right: 1rem;
+}
+
+.column.full { width: 100%; padding-left:10%;
+    padding-right:10%;}
+.column.two-thirds { width: 66.7%; }
+.column.half { width: 50%; }
+.column.third { width: 33.3%; }
+.column.fourth { width: 25%; }
+.column.flow-opposite { float: right; }
+
+.logo{
+    position:absolute;
+    left: 2%;
+    top: 2%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+img{
+    margin-top: 5%;
+}
+
+h4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-container{
+    display: table;
+    width: 50%;
+    margin:auto;
+}
+
+.nav-tabs{
+    text-align: left;
+}
+
+.nav-container h4{
+    display: table-cell;
+    vertical-align: middle;
+    color: black;
+    padding-right: 8%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:didot,helvetica,arial,sans-serif;
+}
+
+.nav-container a:hover{
+    color: #D6665A;
+}
+
+
+.hero-img{
+    margin-top: 12%;
+    width:80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.half-text-left{
+    padding-left: 10%;
+}
+
+.half-text-right{
+    padding-right: 10%;
+}
+
+.column{
+    text-align: center;
+}
+
+.img-background{
+    background-color:#FBF7EF;
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: left;
+    Font-family: didot, Helvetica, Arial, sans-serif;
+}
+
+h3{
+    font-size: 2rem;
+    Font-family: didot, Helvetica, Arial, sans-serif;
+}
+
+h1{
+    font-size: 2.3rem;
+    margin: 0%;
+    Font-family: didot, Helvetica, Arial, sans-serif; 
+}
+
+h2{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: lighter;
+    Font-family: didot, Helvetica, Arial, sans-serif; 
+}
+
+h4{
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom:0%;
+    Font-family: didot, Helvetica, Arial, sans-serif;
+}
+
+.reflections{
+    margin-bottom: 5%
+}
+
+button {
+    background-color: #F99186;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 15px;
+    margin-bottom: 5%;
+    font-family:didot,Helvetica,Arial, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    padding: 1.5x 1.5x;
+    font-weight: 600;
+}
