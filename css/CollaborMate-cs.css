@@ -1,12 +1,3 @@
-.nav-container h4{
-    padding-right: 10%;
-}
-
-.nav-container h4 a{
-    text-decoration: none;
-    color: black;
-}
-
 .text-left{
     padding-left: 10%;
 }
@@ -40,10 +31,6 @@ h1{
     height: 400px;
 }
 
-.nav-container a:hover{
-    color: #D6665A;
-}
-
 .Persona img{
     height: auto;
     width: 90%;
@@ -52,6 +39,7 @@ h1{
 .img-background p{
     text-align: center;
     margin-top: 0%;
+    font-size:20px;
 }
 
 .sign-in-img img{
@@ -71,6 +59,9 @@ h1{
         padding-right:0%;
         padding-left:0%;
     }
+    
+    .column.full { width: 100%; padding-left:20%;
+    padding-right:20%;}
     
    .nav-bar img{
         height: 300px;

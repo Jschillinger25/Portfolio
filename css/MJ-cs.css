@@ -14,6 +14,7 @@
 
  p.Center{
     text-align:center;
+    font-size: 1rem;
 }
 
  .SwotSurvey{
@@ -92,10 +93,6 @@ h1{
     color: black;
 }
 
- .link {
-    font-size: 20px;
-}
-
 @media (max-width: 1024px) {
    html { font-size: 120%; }
    .column.third { width: 100%; }
@@ -103,6 +100,9 @@ h1{
         height: auto;
         width: 70%;
     }
+    
+    .column.full { width: 100%; padding-left:20%;
+    padding-right:20%;}
     
     .logo{
         position:absolute;
