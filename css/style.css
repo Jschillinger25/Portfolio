@@ -22,145 +22,91 @@ body, html {
 .column.fifth {width:20%; }
 .column.flow-opposite { float: right; }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
-button{
-    background-color: #FEB38D;
-    border: none;
-    color: white;
-    width: 250px;
-    height: 50px;
-    text-align: center;
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
     text-decoration: none;
-    font-size: 1.5rem;
-    font-family: inherit;
-    border-radius: 8px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: block;
 }
 
-.LetsTalk button{
-    background-color: #3090A6;
-    border: none;
-    color: white;
-    width: 250px;
-    height: 50px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-family: inherit;
-    border-radius: 8px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    margin-top:5%;
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
-.fa-arrow-circle-left:hover{
-    font-size: 5rem;
-    cursor: pointer;
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }
 
-.fa-arrow-circle-right:hover{
-    font-size: 5rem;
-    cursor: pointer;
+.title p{
+   font-size:40px;
+   font-family: 'Alegreya Sans SC', sans-serif;
+   color:#3090A6; 
+   text-align: center;
 }
 
-.fa-arrow-circle-left{
-    font-size: 72px;
-}
-
-.fa-arrow-circle-right{
-    font-size: 72px;
-}
-
-.mj-photography-laptop{
-    position: ;
-}
-
-.mj-photography-right-arrow{
-  position: absolute;
-  
-  margin-top: 10%;
-  right:  10px;
-  color: #73D0E5;
-}
-
-.bloc-jams-laptop{
-    position: ;
-}
-
-a {
-    text-decoration: none;
-    color: white;
+p{
+    font-family:Lato, sans-serif;
+    font-size:25px;
+    color:black;
+    line-height:.6;
+    opacity: .6;
 }
 
 button:hover{
     cursor: pointer;
 }
 
-.bloc-jams-right-arrow{
-  position: absolute;
-  margin-top: 10%;
-  right:  10px;
-  color: #73D0E5;
+.title{
+  text-align: center;
+  margin:0%;
+  display:table-cell;
+  vertical-align: middle;
+  font-size:40px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color:#3090A6;
+  opacity:1;
 }
 
-.bloc-jams-left-arrow{
-  position: absolute;
-  margin-top: 10%;
-  left:  10px;
-  color: #73D0E5;
+.mail i{
+    display:table-cell;
+    vertical-align: middle;  
 }
 
-.traks-laptop{
-    position: ;
+.mail{
+    text-align: right;
+    font-size:40px;
+    color:#FEC9AF;
 }
 
-.traks-right-arrow{
-  position: absolute;
-  margin-top: 10%;
-  right:  10px;
-  color: #73D0E5;
+.dropdown i{
+    display:table-cell;
+    vertical-align: middle;
 }
 
-.traks-left-arrow{
-  position: absolute;
-  margin-top: 10%;
-  left:  10px;
-  color: #73D0E5;
+.dropdown{
+    text-align: left;
+    font-size:40px;
+    color:#FEC9AF;
 }
 
-.collabormate-laptop{
-    position: ;
-}
-
-.collabormate-right-arrow{
-  position: absolute;
-  margin-top: 10%;
-  right:  10px;
-  color: #73D0E5;
-}
-
-.collabormate-left-arrow{
-  position: absolute;
-  margin-top: 10%;
-  left: 10px;
-  color: #73D0E5;
-}
-
-.open-hand-laptop{
-    position: ;
-}
-
-.open-hand-left-arrow{
-  position: absolute;
-  margin-top: 10%;
-  left: 10px;
-  color: #73D0E5;
-}
-
-
-.nav{
-    position: absolute;
-    display: table;
-    height: 60px;
+.dropdown-content{
+    text-align: left;
 }
 
 .nav-container h4:hover, .ProjectNav h3:hover, .contact-info a:hover {
@@ -172,1025 +118,175 @@ button:hover{
 }
 
 .hero{
-    height: 100%;
+    height: 80%;
+}
+
+.hero-content img {
+    display: block;
+    margin: auto;
+    width: 20%;
 }
 
 .hero-container{
-    height: 100%;
     display: table;
+    margin-top:100px;
+    
 }
 
-.hero-contnent{
+.hero-content{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-}
-
-.hero h2{
-    margin-bottom: -1%;
-}
-
-h2 { color: black;
-     font-weight: 800;
-     text-align: center;
-     font-weight: normal;
-     font-size: 2rem;
 }
 
 body{
     font-family: didot, 'Mukta Vaani', sans-serif;
 }
 
-.hero{
-    background-image: url(../images/hero_background.png);
+.hero-container{
+    background-image: url(../images/hero_rectangle.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% 100%;
-
-}
-
-.logo{
-    position: absolute;
+    background-size: auto;
+    background-size: 100% 60%;
+    background-position:bottom;
 }
 
 .nav{
     width: 100%;
     position: relative;
+    height:70px;
 }
 
-.nav-tabs{
+.nav .column.third{
+    height:70px;
+    display:table;
+}
+
+
+
+.work{
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size:30px;
     text-align: center;
-    display: table;
-}
-
-.nav-container{
-    display: table;
-    height: 60px;
-    width: 50%;
-    margin: auto;
-}
-
-.nav-container h4{
-    color: black;
-    padding-right: 5%;
-    text-decoration: none;
-    font-size: 1.5rem;
-    display: table-cell;
-    vertical-align: middle;
-  
-}
-
-.Headings h2{
-    font-weight:bold;
-}
-
-.hero-img{
-    width: 300px;
-}
-
-.about-images{
-    display: table;
-    height: 80px;
-    
-}
-
-.about-images img{
-    display: table-cell;
-    vertical-align: middle;
-    margin: auto;
-    width: 120px;
-}
-
-.about ul{
-    margin-top: 3%; 
-}
-
-.about{
-    height: 100%;
-    background-image: url(../images/about_background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% 100%;
-}
-
-.about li{
-    font-size: 1rem;
-    margin-left: 10%;
-    line-height: 3pc;
-}
-   
-.selected {
-    color: #FEB38D;
-}
-
-.ProjectNav{
-    position: relative;
-}
-
-
-.portfolio{
-    height:100%;
-    padding: 25px;
-    background-image: url(../images/portfolio_background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% 100%;
-    position: relative;
-}
-
-.portfolio img{
-    width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 90px;
-    height: 305px;
-}
-
-.portfolio-content{
-    position: relative;
-}
-
-.portfolio-button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-}
-
-.portfolio-nav{
-    position: absolute;
-    display: block;
-    left: auto;
-    top: 17%;
-    width: 200px;
-}
-
-.portfolio-nav h3{
-    font-size: 1.1rem;
-    margin-top: 3%;
-}
-
-.skills{
-    height: 100%;
-}
-
-.skills h3{
-    margin-top: 0%;
-    margin-left: 20%;
-    font-size: 1.5rem;
-    font-weight: normal;
+    padding-top:4%;
+    padding-bottom:4%;
     color:#3090A6;
 }
 
-.programs-row{
-    margin-left: 20%;
-    width: 100%;
-    padding: 0%;
-    text-align: justify;
+.text h3{
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size:35px;
+    padding:0%;
+    margin:0%;
+    margin-top:70px;
 }
 
-.programs-row img{
-    width: 60px;
-    display: inline-block;
-    margin:auto;
-    margin-right: auto;
-
-    height: auto;
-    margin-right: 100px;
-    margin-bottom: 25px;
+.text p{
+    font-family:Lato, sans-serif;
+    font-size:25px; 
+    padding:0%;
+    margin:0%;
+    margin-top:10px;
+    margin-bottom:50px;
+    font-weight:lighter;
+    opacity:.6;
+    color:black;
 }
 
-.list-one{
-    margin-left: 40%;
-    font-size: 1rem;
-    margin-top: -5%;
-    line-height: 250%;
-}
-
-.list-two{
-    margin-left: 5%;
-    font-size: 1rem;
-    margin-top: -5%;
-    line-height: 250%;
-}
-
-.SkillButton{
-    margin-top:2%
-}
-
-.SkillButton{
-    position: absolute;
-    bottom: 8%;
-}
-
-.skills{
-    position: relative;
-}
-
-.skills button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration:none;
-}
-
-.SkillButton a{
-    text-decoration: none;
-}
-
-.contact{
-    height: 100%;
-    background-image:url(../images/ContactTriangle.png);
-    background-repeat: no-repeat;
-    background-size: 100% 75%;
-    background-position: center bottom;
-    position: relative;
-}
-
-.contact-info-container{
-    position:absolute;
-    left:0;
-    right:0;
-    bottom: 40px;
-    margin:auto;
-}
-
-.contact-img{
-    width: 200px;
-    position:absolute;
-    left:0;
-    right:0;
-    top: 130px;
-    margin:auto;
-}
-
-.contact-info{
-    float:right;
-}
-
-.contact p{
-    display: block;
+.text{
     text-align: center;
-    font-size: 2rem;
     color: #3090A6;
 }
 
-.contact-info a{
+.pic{
+    text-align: center;
+}
+
+.text button{
+    background-color: #FEB38D;
+    border: none;
+    color: white;
+    width: 250px;
+    height: 60px;
+    text-align: center;
     text-decoration: none;
+    font-size: 25px;
+    font-family:'Alegreya Sans SC', sans-serif;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
 }
 
-.contact1{
-    text-align:center;
+.background{
+    background-image: url(../images/work_rectangle.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+    padding-top:4%;
+    padding-bottom:4%;
 }
 
-.contact1 p{
-    color:white;
+.section{
+    padding-top:4%;
+    padding-bottom:4%;
 }
 
-.SocialLinks a{
-    padding:10px;
-}
-
-.contact button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.LetsTalk a{
+.salutation button{
+    background-color: #FEB38D;
+    border: none;
+    color: white;
+    width: 250px;
+    height: 60px;
+    text-align: center;
     text-decoration: none;
+    font-size: 25px;
+    font-family:'Alegreya Sans SC', sans-serif;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
 }
 
-ul {
-    list-style: none;
-    padding:5px;
-    margin:5px;
-    word-spacing: 1px;
+.salutation{
+    text-align: center;
 }
 
-li {
-    padding-left: 1em;
-    text-indent: -.7em;
+.salutation p{
+    text-align: center;
+    font-size:35px;
+    color:#3090A6;
+    opacity:1;
 }
 
-li:before {
-    content: "• ";
-    color: #F2D16C;
-    font-size: 4pc;
-    display: inline-block;
-    vertical-align: middle;
+.contact{
+    padding-top:4%;
+    padding-bottom:4%;
 }
 
-li:nth-child(odd)::before{
-  color: #3090A6;
+.icons i{
+    color: #3090A6;
+    font-size: 60px;
+    margin-left:3%;
 }
 
-.second{
-     position: relative;
-     left: 400px;
-     bottom: 280px;
+.icons{
+    text-align: right;
 }
 
-
-@media (max-width: 1024px) {
-   /*html { font-size: 120%; }*/
-   /*.column.third { width: 100%; }*/
-   /*.column.third img{
-        height: auto;
-       
-    }*/
-    
-    .list-one{
-        margin-left: 20%;
-        font-size: 1rem;
-        margin-top: -5%;
-        line-height: 250%;
-    }
-
-    .list-two{
-        margin-left: 10%;
-        font-size: 1rem;
-        margin-top: -5%;
-        line-height: 250%;
-    }
-    
-    .skills h3{
-        margin-left: 10%;
-    }
-    
-    .programs-row{
-        margin-left: 10%;
-        width: 100%;
-        padding: 0%;
-        text-align: justify;
-    }
-
-    .programs-row img{
-        width: 50px;
-        display: inline-block;
-        margin:auto;
-        margin-right: auto;
-
-        height: auto;
-        margin-right: 12%;
-        margin-bottom: 25px;
-    }
-    
-    .portfolio-button{
-        font-size: 1rem;
-        padding: 10px 20px;
-    }
-    
-    .portfolio img{
-        width: 350px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 100px;
-        height: auto;
-        
-    }
-    
-    .portfolio-nav{
-        position: absolute;
-        display: block;
-        left: 5px;
-        top: 20%;
-        width: 150px;
-        
-    }
-
-    .portfolio-nav h3{
-        font-size: .9rem;
-        margin-top: 0%;
-    }
-    
-    .about li{
-        font-size: 1rem;
-        line-height: 1pc;
-        height: 4pc;
-        margin-left: 20px;
-    }
-    
-    .about-images img{
-        width: 100px;
-    }
-    
-      .contact-img{
-        width: 175px;
-        top: 130px;
-    }
-    
-      .LetsTalk button{
-          width: 30%;
-          height: 30%;
-          font-size: 1.5rem;
-          margin-top:15%;
-    }
-    
-      .contact p{
-         font-size: 1.5rem;
-    }
-    
-      .contact1{
-         margin-top:5%;
-    }
-    
-      li:before {
-        font-size: 2pc;
-    }
-    
-      .skills h3{
-          font-size: 1.3rem;
-    }
-    
-
-     .SkillButton{
-        margin-top:5%
-    }
-    
-      button{
-        font-size: 1.5rem;
-        padding: 25 35;
-    }
-    
-     .size img{
-        position:absolute;
-        height:auto;
-        width:80%;  
-     }
-    
-     /*.column.half { 
-         width: 50%; 
-    }*/
-     
-     p{
-        font-size: 1rem;
-        font-weight: normal;
-        font-family: didot;
-     }
-
-     h3{
-        font-size: 1.7rem;
-     }
-
-     h1{
-        font-size: 2.0rem;
-     }
-
-     h2{
-        font-size: 1.8rem;
-     }
-
-     h4{
-        text-align: left;
-        font-size: 1.8em;
-        margin-bottom:0%;
-     }
-    
-     .column.full.Display{
-        width:100%;
-    }
-    
-     .nav-container h4{
-        font-size: 1.3rem;
-    }
-     
+.copyright p{
+    color:#3090A6;
+    font-size: 20px;
+    font-family:Lato, "sans-serif";
 }
 
-@media (max-width: 770px) {
-   /*html { font-size: 120%; }*/
-   /*.column.third { width: 100%; }*/
-   /*.column.third img{
-        height: auto;
-       
-    }*/
-    
-    .hero-img{
-        width: 250px;
-    }
-    
-    .list.column.half{
-        padding: 0%;
-    }
-    
-    .list-one{
-        margin-left: 13%;
-        font-size: 1rem;
-        margin-top: -5%;
-        line-height: 250%;
-    }
-    
-    .list-two{
-        margin-left: 0%;
-        font-size: 1rem;
-        margin-top: -5%;
-        line-height: 250%;
-    }
-    
-    .skills h3{
-        margin-left: 5%;
-    }
-    
-    .programs-row{
-        margin-left: 5%;
-        width: 100%;
-        padding: 0%;
-        text-align: justify;
-    }
-
-    .programs-row img{
-        width: 40px;
-        display: inline-block;
-        margin:auto;
-        margin-right: auto;
-
-        height: auto;
-        margin-right: 10%;
-        margin-bottom: 25px;
-    }
+.footer{
+    margin-top:4%;
+    margin-bottom:0%;
 }
 
-@media (max-width: 650px) {
-    
-    .contact-info-container{
-        position:absolute;
-        left:0;
-        right:0;
-        bottom: 100px;
-        margin:auto;
-    }
-    
-    .contact{
-        background-size: 150% 75%;
-    }
-    
-    .list-one{
-        margin-left: 13%;
-        font-size: .8rem;
-        margin-top: -5%;
-        line-height: 350%;
-    }
-    
-    .list-two{
-        margin-left: 0%;
-        font-size: .8rem;
-        margin-top: -5%;
-        line-height: 350%;
-    }
-    
-    
-    .portfolio-button{
-        font-size: .8rem;
-        padding: 10px 20px;
-        width: 200px;
-    } 
-    
-    .nav-container h4{
-        font-size: 1rem;
-    }
-    
-    .portfolio img{
-        width: 350px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 200px;
-        
-    }
-    
-    .portfolio-nav{
-        width: 100%;
-        top: 20%;
-    }
-    
-    .column.full.ProjectNav{
-        width: 20%;
-        padding: 0%;
-    }
-    
-     .traks.column.full{
-        width:15%;
-    }
-    
-    .open-hand.column.full{
-        width:20%;
-    }
-    
-    .mj-photography.column.full{
-        width:25%;
-        text-align: center;
-    }
-
-    .portfolio-nav h3{
-        font-size: .7rem;
-        margin-top: 5%;
-    }
-    
-    .portfolio.column.full{
-        padding-right: 0%;
-        padding-left: 0%;
-    }
-    
-    h2{
-        font-size: 1.3rem;
-     }
-    
-    .logo img{
-        height: 50px;
-    }
-    
-    .about-images img{
-        width: 75px;
-    }
-    
-    .about li{
-        font-size: .8rem;
-        line-height: 1pc;
-        height: 4pc;
-        margin-left: 5px;
-    }
-    
-    .hero-img{
-        width: 250px;
-    }
-}
-
-
-
-@media (max-width: 550px) {
-    
-    .SkillButton button{
-         width: 200px;
-        height: 40px;
-        font-size: 18px;
-    }
-    
-    .contact button{
-        padding: 10px 15px;
-        font-size: 16px;
-    }
-    
-      .column.half{
-        width:100%;
-    }
-    
-    .list-one{
-        margin-left: 2%;
-        font-size: 1rem;
-        margin-top: -5%;
-        line-height: 200%;
-    }
-    
-    .list-two{
-        margin-left: 2%;
-        font-size: 1rem;
-        margin-top: -5%;
-        line-height: 200%;
-    }
-    
-    .skills h3{
-        margin-left: 0%;
-    }
-    
-    .programs-row{
-        margin-left: 0%;
-        width: 100%;
-        padding: 0%;
-        text-align: justify;
-    }
-
-    .programs-row img{
-        width: 30px;
-        display: inline-block;
-        margin:auto;
-        margin-right: auto;
-
-        height: auto;
-        margin-right: 30px;
-        margin-bottom: 25px;
-    }
-    
-    .contact{
-        background-size: 175% 75%;
-    }
-    
-    .fa-arrow-circle-left:hover{
-        font-size: 4rem;
-        cursor: pointer;
-    }
-
-    .fa-arrow-circle-right:hover{
-        font-size: 4rem;
-        cursor: pointer;
-    }
-
-    .fa-arrow-circle-left{
-        font-size: 54px;
-    }
-
-    .fa-arrow-circle-right{
-        font-size: 54px;
-    }
-    
-    .portfolio img{
-        width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 200px;
-        
-    }
-
-}
-
-
-@media (max-width: 400px) {
-    
-    .list-one{
-        margin-left: 8%;
-        font-size: 1rem;
-        margin-top: -5%;
-        line-height: 200%;
-    }
-    
-    .list-two{
-        margin-left: 8%;
-        font-size: 1rem;
-        margin-top: -5%;
-        line-height: 200%;
-    }
-    
-    .hero-img{
-        width: 200px;
-        padding-bottom:15%;
-    }
-    
-    .about li{
-        font-size: .6rem;
-        line-height: 1pc;
-        height: 3.4pc;
-        margin-left: 10px;
-    }
-    
-    .about-list.column.full{
-        padding: 0%;
-    }
-    
-    .about-images img{
-        width: 60px;
-    }
-    
-    .about.column.full{
-        padding-left: 2px;
-        padding-right: 2px;
-    }
-    
-       .nav-container h4{
-        font-size: .8rem;
-        padding-right:15px;
-    }
-    
-    .portfolio.column.full{
-        padding:0rem;
-    }
-    
-    .about-list ul{
-        margin: 0%;
-        padding: 0%;
-    }
-    
-    .column.full.skills{
-        padding:0%;
-    }
-    
-    .programs-row{
-        padding:0%;
-        margin-left:5%;
-    }
-    
-    .programs-row img{
-       width:9%; 
-        
-    }
-    
-    .skills h3{
-        margin-left:6%;
-    }
-    
-     p{
-        font-size: .6rem;
-        font-weight: normal;
-        font-family: didot;
-    }
-
-     h3{
-        font-size: .8rem;
-    }
-
-     h1{
-        font-size: 1.5rem;
-    }
-
-     h2{
-        font-size: 1rem;
-    }
-
-     h4{
-        text-align: left;
-        font-size: .8em;
-        margin-bottom:0%;
-    }
-    
-     .size img{
-        position:absolute;
-        height:auto;
-        width:80%;  
-    }
-    
-    .contact button{
-        padding: 10px 15px;
-        font-size: 16px;
-    }
-    
-    .logo img{
-        height: 30px;
-        margin-top: 20%;
-    }
-    
-    .nav-container h4{
-        color: black;
-        padding-right: 8px;
-    
-        display: table-cell;
-        vertical-align: middle;
-    }
-    
-    .about-images img{
-        width: 50px;
-    }
-    
-    .about-images.column.third{
-        padding-left: 2px;
-        padding-right: 2px;
-    }
-    
-    .portfolio-content.column.full{
-        padding: 0%;
-    }
-    
-    .portfolio-content h3{
-        font-size: 8px;
-    }
-  
-    .traks.column.full{
-        width:12%;
-    }
-    
-    .open-hand.column.full{
-        width:18%;
-    }
-    
-    .mj-photography.column.full{
-        width:25%;
-    }
-    
-    .portfolio-nav{
-        width: 98%;
-    }
-    
-    .portfolio img{
-        width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 150px;
-        
-    }
-    
-      .portfolio-button{
-        width:50%;
-        height:20%;
-        font-size: .8rem;
-    }
-
-    .programs-row img{
-        margin-right: 20px;
-        margin-bottom: 10px;
-    }
-    
-    .list-one{
-        margin-left: 9%;
-        font-size: .8rem;
-        margin-top: -5%;
-        line-height: 180%;
-    }
-    
-    .list-two{
-        margin-left: 9%;
-        font-size: .8rem;
-        margin-top: -5%;
-        line-height: 180%;
-    }
-    
-    .SkillButton button {
-        width: 200px;
-        height: 30px;
-        font-size: 14px;
-    }
-    
-    .contact{
-        background-size: 175% 75%;
-    }
-    
-    .contact-img{
-        width: 150px;
-        position:absolute;
-        left:0;
-        right:0;
-        top: 100px;
-        margin:auto;
-    }
-    
-    .contact-info-container{
-        bottom: 50px;
-    }
-    
-    .contact p{
-        display: block;
-        text-align: center;
-        font-size: 1.1rem;
-    }
-    
-    .SocialLinks img{
-        width:30px;
-    }
-    
-    .LetsTalk button{
-        width: 150px;
-    }
-    
-    .mj-photography.column.full{
-        text-align: left;
-    }
-    
-    .mj-photography-right-arrow{
-        margin-top: 10%;
-        right:  5px;
-    }
-
-    .bloc-jams-right-arrow{
-        margin-top: 10%;
-        right:  5px;
-    }
-
-    .bloc-jams-left-arrow{
-        margin-top: 10%;
-        left:  5px;
-    }
-
-    .traks-right-arrow{
-        margin-top: 10%;
-        right:  5px;
-    }
-
-    .traks-left-arrow{
-        margin-top: 10%;
-        left:  5px;
-    }
-
-    .collabormate-right-arrow{
-        margin-top: 10%;
-        right:  5px;
-    }
-
-    .collabormate-left-arrow{
-        margin-top: 10%;
-        left:  5px;
-    }
-
-    .open-hand-left-arrow{
-        margin-top: 10%;
-        left: 5px;
-    }
-    
-    
-        font-size: 4rem;
-        cursor: pointer;
-    }
-
-    .fa-arrow-circle-right:hover{
-        font-size: 4rem;
-        cursor: pointer;
-    }
-
-    .fa-arrow-circle-left{
-        font-size: 48px;
-    }
-
-    .fa-arrow-circle-right{
-        font-size: 48px;
-    }
-
-    .portfolio-nav{
-        top: 35%;
-    }
+.background1{
+    background-image: url(../images/work_rectangle.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+    padding-top:4%;
+    padding-bottom:0%;
 }
 
