@@ -1,0 +1,12 @@
+.about{
+    padding-top:4%;
+    padding-bottom:4%;
+    padding-left:20%;
+    padding-right:20%;
+    text-align: center;
+}
+
+.about p{
+    line-height:1.7;
+    font-family:lato, sans-serif;
+}
