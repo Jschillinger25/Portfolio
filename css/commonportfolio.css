@@ -187,4 +187,78 @@ button:hover{
     padding-bottom:0%;
 }
 
+@media (max-width: 1380px){
+    
+    .column.third{
+        padding-left:0%;
+        padding-right:0%;
+    }
+}
+
+@media (max-width: 1168px){
+    
+    .title{
+        line-height:.8;
+    }
+}
+
+@media (max-width: 950px) {
+    
+    .column.half{
+        width:100%;
+    }
+}
+
+@media (max-width: 691px) {
+    
+    .salutation button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+   }
+    
+    .icons a{
+    font-size: 40px;
+   }
+    
+   .salutation p{
+    font-size:30px;
+    }
+}
+
+@media (max-width: 559px){
+    
+    .icons{
+        text-align: center;
+        margin-top:4%;
+    }  
+    
+    .icons a{
+        font-size:30px;
+    }
+    
+    .nav.column.full{
+        padding-left:0%;
+        padding-right:0%;
+    }
+    
+    .column.third{
+        width:30%;
+    }
+}
+
+@media (max-width: 400px){
+    
+    .salutation button{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+   }
+    
+    .salutation p{
+        font-size:20px;
+    }
+   
+}
+
 

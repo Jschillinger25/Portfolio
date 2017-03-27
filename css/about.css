@@ -34,3 +34,48 @@
     padding-top:4%;
     padding-bottom: 2%;
 }
+
+p{
+    text-align: left;
+    font-size:30px;
+}
+
+@media (max-width: 1168px){
+    
+    .aboutphotos img{
+        width:75%;
+        height:auto;
+    }
+    
+    p{
+        font-size:25px;
+    }
+    
+    .about h1{
+    font-size: 30px;
+   }   
+}
+
+@media (max-width: 900px){
+    .about p{
+        padding-left:1%;
+        padding-right:1%;
+    }
+}
+
+@media (max-width: 400px){
+    
+    .aboutphotos img{
+        width:75%;
+        height:auto;
+    }
+    
+    p{
+        font-size:18px;
+    }
+    
+    .about h1{
+    font-size: 25px;
+    text-align: left;
+   }
+}
