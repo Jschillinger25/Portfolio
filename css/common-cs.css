@@ -41,6 +41,8 @@ img{
 }
 
 .img-background img{
+    margin-top:0%;
+    margin-bottom:0%;
     padding-top:0%;
     padding-bottom:4%;
     width:100%;
@@ -54,9 +56,23 @@ img{
 .img-background p{
     text-align:center;
     margin-top:0%;
+    margin-bottom:0%;
     font-size: 18px;
     padding-top:4%;
     padding-bottom:2%;
+}
+
+.no-caption img{
+    margin-top:0%;
+    margin-bottom:0%;
+    padding-top:4%;
+    padding-bottom:4%;
+    width:100%;
+    height:auto;
+}
+
+.no-caption{
+    background-color:#FBF7EF;
 }
 
 p{
