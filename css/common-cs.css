@@ -353,6 +353,15 @@ iframe{
     position: relative;
 }
 
+
+@media (max-width: 1380px){
+    
+    .column.third{
+        padding-left:0%;
+        padding-right:0%;
+    }
+}
+
 @media (max-width: 1168px){
     
     .title{
@@ -366,6 +375,19 @@ iframe{
         line-height:.9;
         font-size: 30px;
     }
+    
+    .column.full h1{
+    font-size: 40px;
+    }
+    
+    .column.full h2{
+        font-size:20px;
+    }
+    
+    .column.full{
+        padding-left:15%;
+        padding-right:15%;
+    }
 }
 
 @media (max-width: 853px) {
@@ -377,6 +399,17 @@ iframe{
     .title{
         margin-top:0%;
         
+    }
+}
+
+@media (max-width: 792px){
+    .column.full{
+        padding-left:10%;
+        padding-right:10%;
+    }
+    
+    .hero-img{
+    margin-top: 25%;
     }
 }
 
@@ -399,6 +432,10 @@ iframe{
 
 @media (max-width: 559px){
     
+     .column.full h1{
+    font-size: 30px;
+    }
+    
     .icons{
         text-align: center;
         margin-top:4%;
@@ -406,6 +443,11 @@ iframe{
     
     .icons a{
         font-size:30px;
+    }
+    
+     .nav.column.full{
+        padding-left:0%;
+        padding-right:0%;
     }
 }
 
@@ -417,21 +459,67 @@ iframe{
     }
 }
 
+@media (max-width: 420px){    
+    .popup{
+    width: 95%;
+}
+    .salutation p{
+        line-height:1.2;
+    }
+    
+     .icons a{
+        font-size:45px;
+    }
+}
+
+
 @media (max-width: 400px){
+    
+    .disappear{
+        display:none;
+    }
     
     .salutation button{
     width: 150px;
     height: 40px;
     font-size: 18px;
+    padding:0%;
    }
     
-    .salutation p{
+    .column.full{
+        padding-left:3%;
+        padding-right:3%;
+    }
+    
+    .img-background p{
         font-size:15px;
     }
     
-       .mail.column.third{
-        margin-left: 8%;
+    .column.full h3{
+        font-size:23px;
     }
+    
+    p{
+        font-size:18px;
+    }
+    
+    .column.full h2{
+        font-size:15px;
+    }
+    
+    .column.full h4{
+        font-size: 18px;
+    }
+    
+    .salutation p{
+        font-size:20px;
+    }
+}
 
-   
+@media (max-width: 320px){
+    
+     .title{
+         font-size:18px;
+         margin-top:4%;
+     }
 }
