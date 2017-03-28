@@ -81,18 +81,6 @@
      padding-right:15%;
 }
 
- h3 {
-    color: #D44357;
-}
-
-h1{
-  color: #9DB9C3;  
-}
-
- h2 {
-    color: black;
-}
-
 @media (max-width: 1024px) {
    html { font-size: 120%; }
    .column.third { width: 100%; }
