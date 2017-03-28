@@ -4,26 +4,34 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>MJ Photography Case Study</title>
-    <link href="https://fonts.googleapis.com/css?family=Alegreya|Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Lato" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel= "stylesheet" href="css/common-cs.css">    
     <link rel= "stylesheet" href="css/MJ-cs.css">
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
-     <div class="hero">
-            <div class="logo column full">
-            <div class="logo">
-                <a href="index.html#portfolio"><img src="images/Logo.png"></a>
-            </div>
-            <div class="nav-tabs column full">
-                <div class="nav-container">
-                    <h4><a href="index.html#about">About</a></h4> 
-                    <h4><a href="index.html#portfolio">Portfolio</a></h4>
-                    <h4><a href="index.html#skills">Skills</a></h4>
-                    <h4><a href="index.html#contact">Contact</a></h4>
-                </div>
-            </div>
-        </div>
+    <div class="popup">
+    <div class="exit b-close">
+        <i class="fa fa-close"></i>
+    </div>
+        <iframe height="517" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://jschillinger25.wufoo.com/embed/z1imlql1gf8ynm/"><a href="https://jschillinger25.wufoo.com/forms/z1imlql1gf8ynm/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
+    </div>
+     <div class="nav column full">
+            <div class="dropdown column third">
+               <i class ="fa fa-navicon"></i>
+               <ul class="dropdown-content">
+                  <li><a href="index.html">Projects</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="images/Jacqueline's_Resume.pdf">Resume</a></li>
+              </ul>
+           </div>
+           <div class = "column third">
+             <p class = "title">Jacqueline Schillinger</p>
+           </div>
+            <div class = "mail column third">
+            <a href="#"><i id="popup" class = "fa fa-envelope-o openpop"></i>
+           </a></div>
     </div>
     <div class="column full">
         <img class="hero-img " src= "images/MJ_Hero.png">
@@ -56,10 +64,10 @@
         </p>
     </div>
     <div class = "column full">
-      <div class = "One SizeImg column half"> 
+      <div class = "One SizeImg column full"> 
         <img src = "images/MJ_Survey1.png"> 
       </div>     
-      <div class = "Two SizeImg column half">   
+      <div class = "Two SizeImg column full">   
         <img src = "images/MJ_Survey2.png">
       </div>
       <div class="Text column full">
@@ -107,47 +115,66 @@
     </div>
      <div class = "TextBlocks column full">
         <h3>Mockups </h3>
-        <p> My friend was hoping for her site to convey a royal, elegant feeling so the layout of the mockups in the beginning catered to that feeling she was after. It didn’t take long into the process though to realize how contrained the site appeared and user feedback was not positive. Technically it was functional but the fact that is was okay and not an eye grabber was a problem because we needed to be competitive. Through much user testing and revision I ended up with my finished product being more minimalistic, and lighter in appearance, thus drawing curious users in. 
+        <p> My friend was hoping for her site to convey a royal, elegant feeling so the layout of the mockups in the beginning catered to that feeling she was after. The typography was fancy throughout the site and the colors were darker to give an air of mystery and elegance. It didn’t take long into the process though to realize how contrained the site appeared and user feedback was not positive. Technically it was functional but the fact that is was okay and not an eye grabber was a problem because we needed to be competitive. Through much user testing and revision I ended up with my finished product being more minimalistic, and lighter in appearance, thus drawing curious users in. 
         </p>
     </div>
     <div class="Display column full">
-      <div class ="OldMock1 SizeImg1 column half">
-        <img src ="images/MJ_Old_Mock1.png">
-         <p class = "Center"> 1st Draft: Landing</p>
+      <div class ="OldMock1 SizeImg1 column full">
+         <img src ="images/mj_landing.png">
+         <p class = "Center"> 1st Draft: Landing<br>Notice how dark it's appearance is due to the overlay</p>
       </div>   
-        <div class ="OldMock2 SizeImg1 column half">
-          <img src ="images/MJ_New_Mock3.png">
-            <p class ="Center"> Final Draft: Landing</p>
-        </div>   
-    </div>
-    <div class="Display column full">
-       <div class ="NewMock1 SizeImg column half">
-        <img src ="images/MJ_Old_Mock2.png">
-          <p class ="Center"> 1st Draft</p>
+      <div class ="OldMock2 SizeImg1 column full">
+            <img src ="images/mj_about.png">
+            <p class ="Center"> 1st Draft: About Page<br>My typography is very fancy and it's being used too frequently to be legible</p>
+      </div>   
+      <div class ="NewMock1 SizeImg column full">
+          <img src ="images/mj_portfolio.png">
+          <p class ="Center"> 1st Draft: Portfolio<br> I originally had a scroll option to go through the photos but user feedback suggested less clicking would be better for people with poor intenet connections.</p>
       </div>
-      <div class="NewMock2 SizeImg column half">   
-          <img src ="images/MJ_New_Mock1.png">
-            <p class ="Center"> Final Draft</p>
+      <div class="NewMock2 SizeImg column full">   
+            <img src ="images/mj_contact.png">
+            <p class ="Center"> 1st Draft: Contact</p>
       </div>
-    </div>
-    <div class="Display column full">
-       <div class ="NewMock1 SizeImg column half">
-        <img src ="images/MJ_Old_Mock3.png">
-          <p class ="Center"> 1st Draft</p>
+      <div class="NewMock2 SizeImg column full">   
+            <img src ="images/mj_new_landing.png">
+            <p class ="Center"> Final Draft: Landing<br>Per expert feedback decided to make the landing page long to encompass several sections. You'll notice a difference in the overall brightness of the site, the change in typography to make it more legible and the gallery is much easier to view.</p>
       </div>
-      <div class="NewMock2 SizeImg column half">   
-          <img src ="images/MJ_New_Mock2.png">
-            <p class ="Center"> Final Draft</p>
+      <div class ="NewMock1 SizeImg column full">
+          <img src ="images/mj_packages.png">
+          <p class ="Center"> 1st Draft: Packages<br>The general appearance is very dark and there is not much hierarchy happening here.</p>
+      </div>
+      <div class="NewMock2 SizeImg column full">   
+            <img src ="images/mj_new_packages.png">
+            <p class ="Center"> Final Draft: Packages<br>Notice the change in brightness as well as more hierarchy.</p>
+      </div>
+      <div class="NewMock2 SizeImg column full">   
+            <img src ="images/mj_new_details.png">
+            <p class ="Center"> Package Details Page <br> Per feedback, I added a page detailing the package as well.</p>
       </div>
     </div>
     <div class = "TextBlocks column full">
         <h3> Final Thoughts </h3>
         <p>This project was interesting to me because of my desire to work with people and help them on their journeys through using my ability to design. I talk about wanting to help people all the time but this project provided me an actual opportunity to do that. It was also a unique experience to actually work with my stakeholder (aka my friend) and collaborate with her directly! I had to design a project with her feelings and desires specifically in mind and then work with her on solutions to every problem down the line. I had to balance user research and feedback, my stakeholder's opinions, and my own expertise to design a competitive wedding photography site! Working with people can be frustrating at times but it is so rewarding, especially when I’m able to produce something good for them that can help them on their professional journey. 
         </p>
+    </div> 
+    <div class ="contact column full background1">
+    <div class ="salutation column full">
+      <p>Thanks for Viewing!</p> 
+      <a href= "#top"><button>Back to Top</button></a>
     </div>
-    <div class = " link column full">
-      <a href = "#top"><button>Back to Top</button></a> 
+    <div class ="footer column full">
+   <!-- <div class ="copyright column half">
+      <p>Designed and Developed by Jacqueline Schillinger @ copyright 2017</p> 
+    </div>-->
+    <div class = "icons column full">
+      <a href= "https://github.com/Jschillinger25"><i class = "fa fa-git-square"></i></a>
+      <a href= "http://linkedin.com/in/jacquelineschillinger"><i class =" fa fa-linkedin-square"></i></a>
     </div>
+    </div>
+  </div>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.bpopup.min.js"></script>
+    <script src="js/home.js"></script> 
     <script>
      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

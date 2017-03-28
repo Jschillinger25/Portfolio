@@ -11,33 +11,39 @@
   <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
+    <div class="popup">
+    <div class="exit b-close">
+        <i class="fa fa-close"></i>
+    </div>
+        <iframe height="517" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://jschillinger25.wufoo.com/embed/z1imlql1gf8ynm/"><a href="https://jschillinger25.wufoo.com/forms/z1imlql1gf8ynm/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
+    </div>
         <div class="nav column full">
             <div class="dropdown column third">
               <i class ="fa fa-navicon"></i>
-              <div class="dropdown-content">
-                <a href="index.html">Projects</a>
-                <a href="about.html">About</a>
-                <a href="images/Jacqueline's_Resume.pdf">Resume</a>
-              </div>
+               <ul class="dropdown-content">
+                  <li><a href="index.html">Projects</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="images/Jacqueline's_Resume.pdf">Resume</a></li>
+              </ul>
            </div>
            <div class = "column third">
              <p class = "title">Jacqueline Schillinger</p>
            </div>
            <div class = "mail column third">
-             <a href= "https://goo.gl/forms/hlNqZcWLaUhsj2ku1"><i class = "fa fa-envelope-o"></i></a>
-           </div>
+            <a href="#"><i id="popup" class = "fa fa-envelope-o openpop"></i>
+           </a></div>
         </div>
-        <div class = "about column full">
           <div class ="aboutphotos column full">
             <img src ="images/Group_9.png">
           </div>
           <div class = "hello column full">
             <h1>Hello, Nice to Meet You!</h1>
           </div>
-          <p>My number one passion is people. People are the reason I chose to be designer. But why? I could have become a doctor, a lawyer, a missionary, a customer service representative at a company (and in fact I was) so why design? It’s simple. I love it. I love talking with people and discovering how they think and feel and why, then  then taking that information and creating something functional yet beautiful with it. I design with the user in mind because without the user what would be the point?<br><br>
-          People are fascinating and they’re worth getting to know. I love that being a UX/UI designer gives me a daily glipse into how people think, what they care about, and why. <br><br>
-          When I’m not researching, meeting with people, or designing user-friendly interfaces, you can find me hiking in the beautiful Colorado mountains with my husband of 4 years. Or you may find me trying out the local flavor since I’m a lowkey foodie. Or I may be planning out my next trip since traveling is a big passion of mine too. No matter where you find me though, you’ll likely find me happy because life is beautiful and I have much to be thankful for. 
-          </p>
+          <div class = "about column full">
+            <p>My number one passion is people. People are the reason I chose to be designer. But why? I could have become a doctor, a lawyer, a missionary, a customer service representative at a company (and in fact I was) so why design? It’s simple. I love it. I love talking with people and discovering how they think and feel and why, then  then taking that information and creating something functional yet beautiful with it. I design with the user in mind because without the user what would be the point?<br><br>
+            People are fascinating and they’re worth getting to know. I love that being a UX/UI designer gives me a daily glipse into how people think, what they care about, and why. <br><br>
+            When I’m not researching, meeting with people, or designing user-friendly interfaces, you can find me hiking in the beautiful Colorado mountains with my husband of 4 years. Or you may find me trying out the local flavor since I’m a lowkey foodie. Or I may be planning out my next trip since traveling is a big passion of mine too. No matter where you find me though, you’ll likely find me happy because life is beautiful and I have much to be thankful for. 
+            </p>
         </div>
         
        <div class ="contact column full background1">
@@ -58,6 +64,7 @@
        </div>
        
  <script src="js/jquery-3.1.0.min.js"></script>
+ <script src="js/jquery.bpopup.min.js"></script>
  <script src="js/home.js"></script> 
  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

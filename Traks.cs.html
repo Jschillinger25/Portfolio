@@ -4,26 +4,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Traks Case Study</title>
-  <link href="https://fonts.googleapis.com/css?family=Alegreya|Lato" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Lato" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link rel= "stylesheet" href="css/common-cs.css">
   <link rel= "stylesheet" href="css/Traks-cs.css">
   <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
+     <div class="popup">
+    <div class="exit b-close">
+        <i class="fa fa-close"></i>
+    </div>
+        <iframe height="517" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://jschillinger25.wufoo.com/embed/z1imlql1gf8ynm/"><a href="https://jschillinger25.wufoo.com/forms/z1imlql1gf8ynm/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
+    </div>
      <div id="top" class="hero">
-        <div class="logo column full">
-            <div class="logo">
-                <a href="index.html#projects"><img src="images/Logo.png"></a>
-            </div>
-            <div class="nav-tabs column full">
-                <div class="nav-container">
-                    <h4><a href="index.html#about">About</a></h4> 
-                    <h4><a href="index.html#portfolio">Portfolio</a></h4>
-                    <h4><a href="index.html#skills">Skills</a></h4>
-                    <h4><a href="index.html#contact">Contact</a></h4>
-                </div>
-            </div>
+        <div class="nav column full">
+       <div class="dropdown column third">
+         <i class ="fa fa-navicon"></i>
+         <ul class="dropdown-content">
+           <li><a href="index.html">Projects</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="images/Jacqueline's_Resume.pdf">Resume</a></li>
+         </ul>
+       </div>
+       <div class = "column third">
+         <p class = "title">Jacqueline Schillinger</p>
+       </div>
+       <div class = "mail column third">
+            <a href="#"><i id="popup" class = "fa fa-envelope-o openpop"></i>
+            </a>
         </div>
+    </div>
     </div>
     <div class="column full">
         <img class="hero-img " src= "images/Traks_Hero.png">
@@ -239,9 +250,24 @@
         <p>Something cool we started doing  was to create a “purgatory” which was a location to place ideas or designs we weren’t sure about. That allowed us to move forward with new ideas unencumbered because we knew we always had a purgatory with our old ideas or designs we could draw from if things went wrong. That allowed us to put our best foot forward and we rarely needed to look back but atleast we had the peace of mind that we could if need be. 
         </p>
     </div>
-    <div class = "column full">
-      <a href="#top"><button>Back to Top</button></a>
+     <div class ="contact column full background1">
+    <div class ="salutation column full">
+      <p>Thanks for Viewing!</p> 
+      <a href= "#top"><button>Back to Top</button></a>
     </div>
+    <div class ="footer column full">
+   <!-- <div class ="copyright column half">
+      <p>Designed and Developed by Jacqueline Schillinger @ copyright 2017</p> 
+    </div>-->
+    <div class = "icons column full">
+      <a href= "https://github.com/Jschillinger25"><i class = "fa fa-git-square"></i></a>
+      <a href= "http://linkedin.com/in/jacquelineschillinger"><i class =" fa fa-linkedin-square"></i></a>
+    </div>
+    </div>
+  </div>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.bpopup.min.js"></script>
+    <script src="js/home.js"></script> 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
