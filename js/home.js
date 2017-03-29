@@ -1,6 +1,6 @@
-$(".portfolio-scroll").click(function() {
+$(".project-scroll").click(function() {
     $('html, body').animate({
-        scrollTop: $(".portfolio").offset().top
+        scrollTop: $("#projects-top").offset().top
     }, 1000);
 });
 

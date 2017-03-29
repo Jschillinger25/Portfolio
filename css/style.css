@@ -10,7 +10,7 @@
 .projects{
     height:auto;
     padding:0%;
-    margin:0%;
+    margin-top:0%;
 }
 
 .hero-content img {
@@ -25,7 +25,7 @@
 
 .hero-container{
     display: table;
-    margin-top:40px;
+    margin-top:50px;
     
 }
 
@@ -133,17 +133,14 @@ body{
     padding-right:0%;
 }
 
-@media (max-width: 1380px){}
-    
-
-    @media (max-width: 1051px){
+@media (max-width: 1051px){
     .hero-content p{
-      font-size: 25px;
+       font-size: 25px;
     }
     
-      .section h3{
-            margin-top:0%;
-        }
+    .section h3{
+        margin-top:0%;
+    }
 }
 
 @media (max-width: 853px) {
@@ -159,10 +156,6 @@ body{
     .pic img:hover{
         opacity:.5;
     }
-        
-     .hero-img p{
-         font-size
-     }
      
      .section button{
          margin-bottom:6%;
@@ -181,13 +174,14 @@ body{
         height:auto;
     }
 }
-    @media (max-width: 691px) {
+    
+@media (max-width: 691px) {
     
     .text button{
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
-   }
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+    }
 }
     
    
@@ -205,43 +199,43 @@ body{
       padding-right:0%;
       padding-left:0%;
    }
-    
+   /* 
         .work h2{
      font-size:27px; 
-   }
+   }*/
 }
 
-    @media (max-width: 400px){
-        .hero-content p{
-        font-size:15px;
+ @media (max-width: 400px){
+    .hero-content p{
+       font-size:15px;
     }
         
     .hero-content img {
-    width: 40%;
+        width: 40%;
     }
     
     .text h3{
-    font-size:28px;
+        font-size:28px;
     }
 
     .text p{
-    font-size:20px; 
-    margin-top:10px;
-    margin-bottom:20px;
+       font-size:20px; 
+       margin-top:10px;
+       margin-bottom:20px;
     }
         
     .text button{
-    width: 150px;
-    height: 40px;
-    font-size: 18px;
+       width: 150px;
+       height: 40px;
+       font-size: 18px;
    }
 }
 
  @media (max-width: 320px){
     
      .title{
-         font-size:18px;
-         margin-top:4%;
+        font-size:18px;
+        margin-top:4%;
      }
      
 }

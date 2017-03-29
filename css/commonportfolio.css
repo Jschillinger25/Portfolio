@@ -4,15 +4,39 @@
     box-sizing: border-box;
 }
 
+.hero{
+    height:100%;
+}
+
+.projects{
+    height:auto;
+}
+
 body, html {
    height:100%
 }
 
 .column {
-         float: left;
-         padding-left: 1rem;
-         padding-right: 1rem;
-     }
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor:pointer;
+}
+
+a p:hover{
+    color:#FEB38D;
+}
+
+button:hover{
+    font-weight:bold;
+}
 
 .column.full { width: 100%; }
 .column.two-thirds { width: 66.7%; }
@@ -59,7 +83,9 @@ body, html {
     font-family:'Alegreya Sans SC', sans-serif;
 }
 
-.dropdown-content li:hover {background-color:#FEC9AF;}
+.dropdown-content li:hover {
+    background-color:#FEC9AF;
+}
 
 .dropdown:hover .dropdown-content {
     display:block;
@@ -87,7 +113,7 @@ body, html {
 }
 
 .nav.column.full{
-   padding-left:0%;
+    padding-left:0%;
     padding-right:0%;
 }
 
@@ -109,13 +135,13 @@ button:hover{
 }
 
 .title{
-  margin-top:3%;
-  margin-left:0%;
-  margin-right:0%;
-  font-size:40px;
-  font-family: 'Alegreya Sans SC', sans-serif;
-  color:#3090A6;
-  opacity:1;
+    margin-top:3%;
+    margin-left:0%;
+    margin-right:0%;
+    font-size:40px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color:#3090A6;
+    opacity:1;
 }
 
 .mail a{
@@ -125,7 +151,7 @@ button:hover{
 }
 
 .nav-container h4:hover, .ProjectNav h3:hover, .contact-info li:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .hidden {
@@ -258,17 +284,17 @@ iframe{
 @media (max-width: 691px) {
     
     .salutation button{
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
    }
     
     .icons a{
-    font-size: 45px;
+        font-size: 45px;
    }
     
    .salutation p{
-    font-size:30px;
+        font-size:30px;
     }
 }
 
@@ -303,19 +329,19 @@ iframe{
     }
     
     .popup{
-    width: 95%;
-}
+         width: 95%;
+    }
      .icons a{
-        font-size:45px;
+         font-size:45px;
     }
 }
 
 @media (max-width: 400px){
     
     .salutation button{
-    width: 150px;
-    height: 40px;
-    font-size: 18px;
+         width: 150px;
+         height: 40px;
+         font-size: 18px;
    }
     
     .salutation p{
