@@ -4,7 +4,7 @@
         
 
 .hero{
-    height: auto;
+    height: 100%;
 }
 
 .projects{
@@ -42,14 +42,15 @@ body{
 .hero-container{
     background-image: url(../images/hero_rectangle.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     background-size: 100% 70%;
-    background-position:bottom;
-    padding-right:10%;
-    padding-left:10%;
+    background-position:bottom, center;
+    height:70%;
+    width:50%;
+    left:10%;
 }
 
-.work{
+/*.work{
     text-align: center;
     padding-top:4%;
     padding-bottom:4%; 
@@ -62,7 +63,7 @@ body{
    color:#3090A6;
    font-family:'Alegreya Sans SC', sans-serif;
    font-weight:200;
-}
+}*/
 
 .text h3{
     font-family:'Alegreya Sans SC', sans-serif;
@@ -143,7 +144,48 @@ body{
     }
 }
 
-@media (max-width: 853px) {
+@media (max-width: 1024px){
+    
+    .hero-container{
+      background-size: 100% 70%;
+      background-position:bottom, center;
+      height:70%;
+      width:50%;
+      left:10%;
+    }
+    
+    .hero-content img {
+      display: block;
+      margin-bottom:5%;
+      width: 40%;
+    }
+    .hero-content p{
+      font-size: 35px;
+    }
+}
+
+@media (max-width: 995px) {
+       
+    .hero-container{
+      background-size: 100% 70%;
+      background-position:bottom, center;
+      height:70%;
+      width:50%;
+      left:10%;
+    }
+    
+    .hero-content img {
+      display: block;
+      margin-bottom:8%;
+      width: 30%;
+    }
+    .hero-content p{
+      font-size: 30px;
+    } 
+}
+
+
+@media (max-width: 861px) {
     
     .disappear{
         display:none;
@@ -169,9 +211,12 @@ body{
 
 @media (max-width: 768px) { 
     
-    .hero-content img{
-        width:35%;
-        height:auto;
+    .hero-content img {
+      margin-bottom:8%;
+      width: 45%;
+    }
+    .hero-content p{
+      font-size: 35px;
     }
 }
     
@@ -182,17 +227,37 @@ body{
         height: 50px;
         font-size: 20px;
     }
+      .hero-content p{
+        font-size:20px;
+    }
 }
     
    
 
-@media (max-width: 559px){
+@media (max-width: 613px){
     .hero-content p{
         font-size:20px;
     }
 } 
 
 @media (max-width:420px){
+    
+    .hero-content img {
+      display: block;
+      margin-bottom:10%;
+      width: 50%;
+    }
+    .hero-content p{
+      font-size: 20px;
+    }
+    
+      .hero-container{
+      background-size: 100% 70%;
+      background-position:center, center;
+      height:70%;
+      width:50%;
+      left:10%;
+    }
 
     
    .section.column.full{
@@ -205,13 +270,15 @@ body{
    }*/
 }
 
- @media (max-width: 400px){
-    .hero-content p{
-       font-size:15px;
-    }
-        
+ @media (max-width: 400px){    
+    
     .hero-content img {
-        width: 40%;
+      display: block;
+      margin-bottom:8%;
+      width: 50%;
+    }
+    .hero-content p{
+      font-size: 18px;
     }
     
     .text h3{
@@ -237,6 +304,10 @@ body{
         font-size:18px;
         margin-top:4%;
      }
+    
+    .hero-content p{
+      font-size: 15px;
+    }
      
 }
   
