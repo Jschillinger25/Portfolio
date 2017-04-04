@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.hidden{
+    display:none;
+}
+
 .hero{
     height:100%;
 }
@@ -87,10 +91,6 @@ button:hover{
     background-color:#FEC9AF;
 }
 
-.dropdown:hover .dropdown-content {
-    display:block;
-}
-
 .dropdown:hover .dropbtn {
     background-color: #FEC9AF;
 }
@@ -98,6 +98,10 @@ button:hover{
 .dropdown{
     font-size:40px;
     color:#FEC9AF;
+}
+
+.dropdown:hover{
+    cursor: pointer;
 }
 
 .nav{

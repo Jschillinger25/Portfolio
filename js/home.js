@@ -36,3 +36,16 @@ window.onload=function(){
         }); 
     })
 }
+
+$(".dropdown").click(function(e){
+    $(".dropdown-content").show();
+     e.stopPropagation();
+});
+
+$(".dropdown").click(function(e){
+    e.stopPropagation();
+});
+
+$(document).click(function(){
+    $(".dropdown-content").hide();
+});
