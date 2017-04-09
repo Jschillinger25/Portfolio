@@ -35,17 +35,17 @@
     margin-bottom:2%;
     padding-top:4%;
     padding-bottom: 2%;
-    padding-left:10%;
-    padding-right:10%;
-    background-image: url(../images/work_rectangle.png);
+    padding-left:20%;
+    padding-right:20%;
+    /*background-image: url(../images/work_rectangle.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-size: 100% 100%;
+    background-size: 100% 100%;*/
     text-align: center;
 }
 
 .aboutphotos img{
-    width:75%;
+    width:100%;
     height:auto;
 }
 
@@ -64,9 +64,14 @@
        padding-left:10%;
        padding-right:10%;  
     }
+    
     .about p{
         font-size:25px;    
     }
+    
+    .aboutphotos{
+       padding-left:10%;
+       padding-right:10%;
 }
 
 @media (max-width: 900px){
@@ -76,8 +81,8 @@
     }
     
     .aboutphotos{
-         padding-left:5%;
-         padding-right:5%;  
+         padding-left:2%;
+         padding-right:2%;  
     }
     
     .hello{
@@ -89,7 +94,7 @@
 @media (max-width: 400px){
     
     .aboutphotos img{
-        width:75%;
+        width:100%;
         height:auto;
     }
     
