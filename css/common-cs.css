@@ -283,8 +283,8 @@ button:hover {
 
 .icons a{
     color: #3090A6;
-    font-size: 60px;
-    margin-right:2%;
+    font-size: 45px;
+    margin-right:3%;
 }
 
 .icons{
@@ -330,55 +330,6 @@ button:hover {
     padding-top:4%;
     padding-bottom:0%;
 }
-
-/*.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: relative;
-    text-align: left;
-    background-color:#3090A6;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    margin-left:46%;
-    margin-right:20%;
-    padding-left:0%;
-    padding-right:0%;
-    margin-top:0%;
-}
-
-.dropdown-content li{
-    color: white;
-    text-decoration: none;
-    display: block;
-    font-size:20px;
-    font-family:'Alegreya Sans SC', sans-serif;
-}
-
-.dropdown-content a{
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-size:20px;
-    font-family:'Alegreya Sans SC', sans-serif;
-}
-
-.dropdown-content li:hover{                      background-color:#FEC9AF;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #FEC9AF;
-}
-
-.dropdown{
-    font-size:40px;
-    color:#FEC9AF;
-}*/
 
 .nav{
     width: 100%;
@@ -489,7 +440,6 @@ iframe{
 
 @media (max-width: 996px){
     .title{
-        line-height:.9;
         font-size: 30px;
     }
     
@@ -513,8 +463,12 @@ iframe{
         width:100%;
     }
     
+    p.title{
+      line-height:.8;
+}
+    
     .title{
-        margin-top:0%;   
+        padding-top:0%;   
     }
     
     .absolute-icon-box-right > a{
@@ -561,9 +515,10 @@ iframe{
         margin-top:2%;
    }
     
-    .icons a{
-        font-size: 40px;
-   }
+    .icons{
+       text-align: center;
+       margin-top:8%;
+    }
     
    .salutation p{
         font-size:30px;
@@ -576,13 +531,8 @@ iframe{
         font-size: 30px;
     }
     
-    .icons{
-        text-align: center;
-        margin-top:6%;
-    }  
-    
     .icons a{
-        font-size:30px;
+        font-size:40px;
     }
     
      .nav.column.full{
@@ -608,7 +558,7 @@ iframe{
     }
     
      .icons a{
-        font-size:45px;
+        font-size:35px;
     }
 }
 
