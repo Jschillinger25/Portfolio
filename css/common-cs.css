@@ -163,16 +163,16 @@ button:hover{
 
 .img-background img{
     margin-top:0%;
-    margin-bottom:0%;
     padding-top:0%;
-    padding-bottom:4%;
+    margin-bottom:4%;
     width:75%;
     height:auto;
+    box-shadow: 3px 3px 5px 3px #ccc; 
 }
 
-.img-background{
+/*.img-background{
     background-color:#FBF7EF;
-}
+}*/
 
 .img-background p{
     text-align:center;
@@ -184,17 +184,16 @@ button:hover{
 }
 
 .no-caption img{
-    margin-top:0%;
-    margin-bottom:0%;
-    padding-top:4%;
-    padding-bottom:4%;
+    margin-top:4%;
+    margin-bottom:4%;
     width:75%;
     height:auto;
+    box-shadow: 3px 3px 5px 6px #ccc; 
 }
 
-.no-caption{
+/*.no-caption{
     background-color:#FBF7EF;
-}
+}*/
 
 p{
     font-size: 20px;
