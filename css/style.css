@@ -99,6 +99,16 @@ body{
     height:auto;
 }
 
+.pic1{
+    text-align: center;
+}
+
+.pic1 img{
+    width:75%;
+    height:auto;
+}
+
+
 .text button{
     background-color:#FEB38D;
     border: none;
