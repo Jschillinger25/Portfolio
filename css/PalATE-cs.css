@@ -8,6 +8,14 @@
     height:auto;
 }
 
+.Center{
+    text-align: center;
+}
+
+.special img{
+    padding-top:0%;
+}
+
 .palate1{
     width:25%;
     height:auto;
