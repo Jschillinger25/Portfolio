@@ -1,0 +1,237 @@
+img{
+    width:85%;
+    margin-left: 8%;
+}
+
+.footer{
+    text-align: center;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.hero{
+    height: 100%;
+}
+
+.projects{
+    height:auto;
+    padding:0%;
+    margin-top:0%;
+}
+
+.hero-content img {
+    display: block;
+    margin: auto;
+    width: 83%;
+}
+
+.hero-container{
+    display: table;
+    margin-top:100px;
+    
+}
+
+.hero-content{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+body{
+    font-family: didot, 'Mukta Vaani', sans-serif;
+}
+
+.section{
+    padding-top:4%;
+    padding-bottom:4%;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.column.full.hero-container{
+    padding-left:0%;
+    padding-right:0%;
+}
+
+@media (max-width: 1051px){
+    .hero-content p{
+       font-size: 25px;
+    }
+    
+    .section h3{
+        margin-top:0%;
+    }
+}
+
+@media (max-width: 1024px){
+    
+    .hero-container{
+      background-size: 100% 70%;
+      background-position:bottom, center;
+      height:70%;
+      width:50%;
+      left:10%;
+    }
+    
+    .hero-content img {
+      display: block;
+      margin-bottom:5%;
+      width: 40%;
+    }
+    .hero-content p{
+      font-size: 35px;
+    }
+}
+
+@media (max-width: 995px) {
+       
+    .hero-container{
+      background-size: 100% 70%;
+      background-position:bottom, center;
+      height:70%;
+      width:50%;
+      left:10%;
+    }
+    
+    .hero-content img {
+      display: block;
+      margin-bottom:8%;
+      width: 30%;
+    }
+    .hero-content p{
+      font-size: 30px;
+    } 
+}
+
+
+@media (max-width: 861px) {
+    
+    .disappear{
+        display:none;
+    }
+        
+    .appear{
+        display: block;
+    }
+    
+    .pic img:hover{
+        opacity:.5;
+    }
+    
+    .pic1 img:hover{
+        opacity:.5;
+    }
+     
+     .section button{
+         margin-bottom:6%;
+     }
+}
+@media (max-width: 781px) { 
+    .hero-content p{
+        font-size:23px;
+    }
+}
+
+@media (max-width: 768px) { 
+    
+    .hero-content img {
+      margin-bottom:8%;
+      width: 45%;
+    }
+    .hero-content p{
+      font-size: 35px;
+    }
+}
+    
+@media (max-width: 691px) {
+    
+    .text button{
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+    }
+      .hero-content p{
+        font-size:20px;
+    }
+}
+    
+   
+
+@media (max-width: 613px){
+    .hero-content p{
+        font-size:20px;
+    }
+} 
+
+@media (max-width:420px){
+    
+    .hero-content img {
+      display: block;
+      margin-bottom:10%;
+      width: 50%;
+    }
+    .hero-content p{
+      font-size: 20px;
+    }
+    
+      .hero-container{
+      background-size: 100% 70%;
+      background-position:center, center;
+      height:70%;
+      width:50%;
+      left:10%;
+    }
+
+    
+   .section.column.full{
+      padding-right:0%;
+      padding-left:0%;
+   }
+   /* 
+        .work h2{
+     font-size:27px; 
+   }*/
+}
+
+ @media (max-width: 400px){    
+    
+    .hero-content img {
+      display: block;
+      margin-bottom:8%;
+      width: 50%;
+    }
+    .hero-content p{
+      font-size: 18px;
+    }
+    
+    .text h3{
+        font-size:28px;
+    }
+
+    .text p{
+       font-size:20px; 
+       margin-top:10px;
+       margin-bottom:20px;
+    }
+        
+    .text button{
+       width: 150px;
+       height: 40px;
+       font-size: 18px;
+   }
+}
+
+ @media (max-width: 320px){
+    
+     .title{
+        font-size:18px;
+        margin-top:4%;
+     }
+    
+    .hero-content p{
+      font-size: 15px;
+    }
+     
+}
+  
+  

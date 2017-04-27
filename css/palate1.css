@@ -1,0 +1,76 @@
+.chosen img{
+    width:50%;
+    height:auto;
+}
+
+.cmnav img{
+    width:75%;
+    height:auto;
+}
+
+.Center{
+    text-align: center;
+}
+
+.special img{
+    padding-top:0%;
+}
+
+.palate1{
+    width:25%;
+    height:auto;
+}
+
+.palate img{
+    width:75%;
+    height:auto;
+    padding-bottom:4%;
+    padding-top:4%;
+    
+}
+
+.palate3 img{
+    width:75%;
+    height:auto;
+    padding-bottom:4%;
+    padding-top:4%;
+    
+}
+
+.palate2 img{
+    width:35%;
+    height:auto;
+    padding-bottom:4%;
+    padding-top:4%;
+    
+}
+
+@media (max-width: 861px) {
+  .palate img{
+    width:50%;
+    height:auto;
+    padding-bottom:4%;
+    padding-top:4%;
+    
+}
+
+.palate2 img{
+    width:50%;
+    height:auto;
+    padding-bottom:4%;
+    padding-top:4%;
+    
+} 
+
+.palate3 img{
+    width:100%;
+    height:auto;
+    padding-bottom:4%;
+    padding-top:4%;
+    
+}
+
+    
+    
+    
+}
