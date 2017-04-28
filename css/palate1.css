@@ -3,6 +3,37 @@
     height:auto;
 }
 
+.mobile img{
+    width:75%;
+    height:auto;
+}
+
+.mobile1 img{
+    width:35%;
+    height:auto;
+}
+
+.offset img{
+    width:71%;
+    height:auto;
+}
+
+.offset1 img{
+    width:35%;
+    height:auto;
+}
+
+.offset2 img{
+    width:50%;
+    height:auto;
+}
+
+.offset3 img{
+    width:47%;
+    height:auto;
+}
+
+
 .cmnav img{
     width:75%;
     height:auto;

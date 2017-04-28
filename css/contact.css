@@ -25,7 +25,7 @@ p{
     font-size: 22px;
     font-weight: normal;
     text-align: center;
-    Font-family: lato, Arial, sans-serif;
+    Font-family: "Lato", sans-serif;
     line-height: 1.5;
     margin-top: 3%;
 }
@@ -64,7 +64,7 @@ ul > li a {
     font-weight: lighter;
     height:auto;
     padding:0px 5px;
-    font-family:"Raleway", sans-serif;
+    font-family:'Alegreya Sans SC', sans-serif;
 }
 
 .column.third li{
@@ -210,7 +210,7 @@ button:hover{
 }
 
 p{
-    font-family:Lato, sans-serif;
+    font-family:"Lato", sans-serif;
     font-size:25px;
     color:black;
     line-height:.8;
