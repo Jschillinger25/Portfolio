@@ -39,9 +39,6 @@
     text-align: center;
 }
 
-body{
-    font-family: Lato, sans-serif;
-}
 
 .hero-container{
     background-image: url(../images/hero_rectangle.png);
@@ -84,7 +81,7 @@ body{
     margin:0%;
     margin-top:10px;
     margin-bottom:30px;
-    font-weight:lighter;
+    font-weight:500;
     opacity:.6;
     color:black;
 }

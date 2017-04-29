@@ -3,6 +3,16 @@
     height:auto;
 }
 
+.text{
+    margin-top:4%;
+    margin-bottom:4%;
+}
+
+.textintro{
+    margin-bottom:4%;
+}
+
+
 .mobile img{
     width:75%;
     height:auto;
