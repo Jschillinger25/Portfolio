@@ -55,7 +55,7 @@ ul > li a {
 }
 
 ul li ul li:hover {
-    background-color:#C6BBC7;
+    background-color:white;
     cursor: pointer;
 }
 
@@ -79,6 +79,11 @@ ul li ul li a{
     color:white;
     font-weight:400;
     font-family:'Alegreya Sans SC', sans-serif;
+}
+
+ul li ul li a:hover{
+    color:#C6BBC7;
+    
 }
 
 ul li ul li {

@@ -76,7 +76,7 @@ body{
     .hero-content img {
       display: block;
       margin-bottom:5%;
-      width: 40%;
+      width: 83%;
     }
     .hero-content p{
       font-size: 35px;
@@ -96,7 +96,7 @@ body{
     .hero-content img {
       display: block;
       margin-bottom:8%;
-      width: 30%;
+      width: 83%;
     }
     .hero-content p{
       font-size: 30px;
@@ -136,7 +136,7 @@ body{
     
     .hero-content img {
       margin-bottom:8%;
-      width: 45%;
+      width: 83%;
     }
     .hero-content p{
       font-size: 35px;
@@ -168,7 +168,7 @@ body{
     .hero-content img {
       display: block;
       margin-bottom:10%;
-      width: 50%;
+      width: 83%;
     }
     .hero-content p{
       font-size: 20px;
@@ -198,7 +198,7 @@ body{
     .hero-content img {
       display: block;
       margin-bottom:8%;
-      width: 50%;
+      width: 100%;
     }
     .hero-content p{
       font-size: 18px;

@@ -279,8 +279,164 @@ button:hover{
 
 iframe{
     overflow: scroll;
-    height: 530px;
+    height: 560px;
 }
+
+@media (max-width: 1380px){
+    
+    .column.third{
+        padding-left:0%;
+        padding-right:0%;
+    }
+}
+
+@media (max-width: 1168px){
+    
+    .title{
+        line-height:.9;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 996px){
+    .title{
+        line-height:.9;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 861px) {
+    
+    .column.half{
+        width:100%;
+    }
+    
+        p.title{
+      line-height:.8;
+}
+    
+    .title{
+        margin-top:0%;
+        
+    }
+
+    .absolute-icon-box-right > a{
+        right: 30px;
+        top: 13px;
+    }
+
+    .absolute-icon-box-left > a{
+        left: 30px;
+        top: 20px;
+    }
+    
+    ul li ul {
+        left: 30px;
+    }
+    
+    .fa.fa-navicon{
+        font-size: 36px;
+    }
+
+    .fa.fa-envelope-o{
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 691px) {
+    
+    .salutation button{
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+   }
+    
+     .icons{
+        text-align: center;
+        margin-top:8%;
+    } 
+ 
+    
+   .salutation p{
+        font-size:30px;
+    }
+}
+
+@media (max-width: 559px){ 
+    
+    .icons a{
+        font-size:40px;
+    }
+    
+    .nav.column.full{
+        padding-left:0%;
+        padding-right:0%;
+    }
+}
+
+@media (max-width: 533px) {
+    
+    .title{
+        font-size:25px;
+        
+    }
+    
+    .wufoo label.desc, .wufoo legend.desc, .likert caption, .wufoo .section h3{
+        font-size:100%;
+    }
+}
+
+@media (max-width: 420px){
+    .salutation p{
+        line-height:1.2;
+    }
+    
+    .popup{
+         width: 95%;
+    }
+     .icons a{
+         font-size:35px;
+    }
+}
+
+@media (max-width: 400px){
+    
+    .salutation button{
+         width: 150px;
+         height: 40px;
+         font-size: 18px;
+   }
+    
+    .salutation p{
+        font-size:20px;
+    } 
+    
+    .absolute-icon-box-right > a{
+        right: 20px;
+        top: 11px;
+    }
+
+    .absolute-icon-box-left > a{
+        left: 20px;
+        top: 20px;
+    }
+    
+    ul li ul {
+        left: 22px;
+        top: 55px;
+    }
+   
+}
+
+@media (max-width: 320px){
+    
+     .title{
+         font-size:18px;
+         margin-top:4%;
+     }
+}
+
+
 
 
 @media (max-width: 1500px) {
@@ -318,7 +474,7 @@ iframe{
 
 
 @media (max-width: 1024px) {
-    html { font-size: 120%; }
+    
     
     
     .column.half{
@@ -345,6 +501,13 @@ iframe{
         .column.half{
     padding-left: 12%;
 }
+}
+
+@media (max-width: 865px) {
+    .column.full.container{
+        padding:0%;
+        padding-left:4%;
+    }
 }
 
 @media (max-width: 790px) {
