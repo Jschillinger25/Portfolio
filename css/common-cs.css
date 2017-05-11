@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+p{
+  text-rendering: optimizeLegibility;
+}
+
 .nav.column.full{
     z-index: 1;
 }
