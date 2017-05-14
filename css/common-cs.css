@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-p{
-  text-rendering: optimizeLegibility;
+body{
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .nav.column.full{
