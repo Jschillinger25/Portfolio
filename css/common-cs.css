@@ -6,7 +6,8 @@
 
 body{
     -webkit-font-smoothing:antialiased;
-    `-moz-osx-font-smoothing: grayscale;
+    `-moz-osx-font-smoothing: black;
+    text-rendering: optimizeLegibility;
 }
 
 .nav.column.full{
