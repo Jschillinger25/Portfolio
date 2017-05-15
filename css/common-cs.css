@@ -211,6 +211,16 @@ p{
     margin-bottom:3%;
 }
 
+h5{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    Font-family: "Lato", sans-serif;
+    line-height: 1.7;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+
 .column.full h3{
     font-size: 30px;
     Font-family: "Alegreya Sans SC", "sans-serif";
