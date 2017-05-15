@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+#fontissue{
+    -webkit-font-smoothing:antialiased;
+    `-moz-osx-font-smoothing: black;
+    text-rendering: optimizeLegibility;
+}
+
 .nav.column.full{
     z-index: 1;
 }
