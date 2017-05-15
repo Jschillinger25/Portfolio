@@ -6,6 +6,8 @@
 
 #fontissue{
     -webkit-font-smoothing: subpixel-antialiased;
+     text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .nav.column.full{
