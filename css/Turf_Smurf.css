@@ -1,6 +1,33 @@
+h6{
+    font-size: 25px;
+    color:black;
+    Font-family: "Alegreya Sans SC", "sans-serif";
+    margin-bottom:1%;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    Font-family: "Alegreya Sans SC", "sans-serif";
+    font-size:30px;
+    text-align: left;
+}
+
+.link{
+    text-align: left;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
 @media (max-width: 872px) {
     .column.third.three{
         width:100%;
     }
 }
+
+
 
