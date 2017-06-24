@@ -254,7 +254,7 @@ button:hover{
 
 .icons{
     text-align: right;
-    position: fixed;
+    position: absolute;
     bottom: 10px;
     right: 10px;
 }
