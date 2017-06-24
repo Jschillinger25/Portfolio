@@ -266,7 +266,7 @@
     
      .hero-container{
       background-size: 100% 70%;
-      background-position:center, center;
+      background-position:bottom, center;
       height:80%;
       width:50%;
       left:10%;
@@ -286,7 +286,7 @@
     
       .hero-container{
       background-size: 100% 70%;
-      background-position:center, center;
+      background-position:bottom, center;
       height:90%;
       width:50%;
       left:10%;
