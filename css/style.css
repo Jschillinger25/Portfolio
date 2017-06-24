@@ -178,10 +178,10 @@
     .hero-content img {
       display: block;
       margin-bottom:5%;
-      width: 40%;
+      width: 30%;
     }
     .hero-content p{
-      font-size: 35px;
+      font-size: 25px;
     }
 }
 
@@ -201,7 +201,7 @@
       width: 30%;
     }
     .hero-content p{
-      font-size: 30px;
+      font-size: 25px;
     } 
 }
 
@@ -238,10 +238,10 @@
     
     .hero-content img {
       margin-bottom:8%;
-      width: 45%;
+      width: 40%;
     }
     .hero-content p{
-      font-size: 35px;
+      font-size: 23px;
     }
 }
     
@@ -279,7 +279,7 @@
       .hero-container{
       background-size: 100% 70%;
       background-position:center, center;
-      height:70%;
+      height:80%;
       width:50%;
       left:10%;
     }
