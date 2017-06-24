@@ -109,6 +109,16 @@
     height:auto;
 }
 
+.pic2{
+    text-align: center;
+}
+
+.pic2 img{
+    width:65%;
+    height:auto;
+}
+
+
 
 .text button{
     background-color:#FEB38D;
