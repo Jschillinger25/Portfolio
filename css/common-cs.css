@@ -517,6 +517,10 @@ iframe{
     .hero-img{
         margin-top: 25%;
     }
+    
+     .hero-img1{
+        margin-top: 25%;
+    }
 }
 
 @media (max-width: 691px) {
